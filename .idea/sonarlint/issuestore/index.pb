@@ -39,8 +39,6 @@ H
 lib/default.py,0\f\0fca75e724171124751fe2788e02613ea9357fca
 =
 changelog.txt,c\e\ce0e5c4949726dad6dc17cd8a745baa4fd61d32d
-9
-	addon.xml,d\2\d210961781676e6d29c3970a7591a02b829cec3a
 M
 lib/the_milk/help/updates.txt,3\0\30ec8bf10881bf33775e24c61f811e8facd6c9c7
 V
