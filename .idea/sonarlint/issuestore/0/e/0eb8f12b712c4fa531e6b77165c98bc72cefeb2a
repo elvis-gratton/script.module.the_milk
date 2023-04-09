@@ -1,0 +1,11 @@
+
+gpython:S1192I"ODefine a constant instead of duplicating this literal 'the last of us' 6 times.(¹¥¬µ
+zpython:S1192"]Define a constant instead of duplicating this literal 'Puss in Boots: The Last Wish' 3 times.(¸š Óıÿÿÿÿ
+6python:S3626“"Remove this redundant return.(ÙãŞŸ
+Hpython:S1481‰"/Remove the unused local variable "data2_out40".(¶ù
+Mpython:S1481"/Remove the unused local variable "result_hash".(şÅ€¤ÿÿÿÿÿ
+Mpython:S1481’"/Remove the unused local variable "result_hash".(Õ‡¥„şÿÿÿÿ
+Hpython:S1481…"/Remove the unused local variable "data1_out40".(ïçÿê
+Hpython:S1481†"/Remove the unused local variable "magnet1_url".(áµØ¹
+Mpython:S1481Š"/Remove the unused local variable "magnet1_url".(ŞÚË¾úÿÿÿÿ
+wpython:S1186•"YAdd a nested comment explaining why this method is empty, or complete the implementation.(©¹Úÿúÿÿÿÿ

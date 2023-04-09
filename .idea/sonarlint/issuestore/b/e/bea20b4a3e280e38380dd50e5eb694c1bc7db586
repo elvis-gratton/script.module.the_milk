@@ -1,0 +1,9 @@
+
+ipython:S116"SRename this field "cipherSuite" to match the regular expression ^[_a-z][_a-z0-9]*$.(ˆÊÑ7
+zpython:S101"dRename class "User_Agent" to match the regular expression ^_?([A-Z_][a-zA-Z0-9]*|[a-z_][a-z0-9_]*)$.(»ºÁC
+lpython:S100"PRename method "filterAgents" to match the regular expression ^[a-z_][a-z0-9_]*$.(†ä†æûÿÿÿÿ
+ipython:S100("RRename method "tryMatchCustom" to match the regular expression ^[a-z_][a-z0-9_]*$.(ê¼¬¤
+Cpython:S11726",Remove the unused function parameter "args".(úÔ×/
+{python:S117m"_Rename this local variable "filteredAgents" to match the regular expression ^[_a-z][a-z0-9_]*$.(…Æ½ûøÿÿÿÿ
+gpython:S1006"QRename method "loadUserAgent" to match the regular expression ^[a-z_][a-z0-9_]*$.(úÔ×/
+kpython:S37766"TRefactor this function to reduce its Cognitive Complexity from 24 to the 15 allowed.(úÔ×/

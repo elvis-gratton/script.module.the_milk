@@ -1,0 +1,47 @@
+
+fpython:S1192É"MDefine a constant instead of duplicating this literal 'the.complete' 3 times.(çëı–
+_python:S1192™"GDefine a constant instead of duplicating this literal '.to.%s' 3 times.(†ªê?
+jpython:S1192µ"LDefine a constant instead of duplicating this literal r'[^a-z0-9]+' 3 times.(Óºçêıÿÿÿÿ
+fpython:S1192ã"HDefine a constant instead of duplicating this literal '.to.s%s' 3 times.(õËÜúÿÿÿÿ
+Bpython:S1940€")Use the opposite operator ("!=") instead.( Ğ«¶
+Upython:S5754ƒ"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Upython:S5754¬"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Lpython:S1135²"4Complete the task associated to this "TODO" comment.(ëÈ˜&
+Upython:S5754Ã"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Ipython:S5806¸"+Rename this variable; it shadows a builtin.(ˆ¥§úøÿÿÿÿ
+Rpython:S1135»"4Complete the task associated to this "TODO" comment.(§±…¦øÿÿÿÿ
+rpython:S3776È"TRefactor this function to reduce its Cognitive Complexity from 34 to the 15 allowed.(ÀÃÅœıÿÿÿÿ
+Upython:S5754ß"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Upython:S5754ƒ"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Spython:S6397æ"5Replace this character class by the character itself.(ÁñÆìùÿÿÿÿ
+Ypython:S6353æ";Use concise character class syntax '\d' instead of '[0-9]'.(ÁñÆìùÿÿÿÿ
+Mpython:S1135ô"4Complete the task associated to this "TODO" comment.(ë¥èƒ
+Upython:S5754œ"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+rpython:S3776¦"TRefactor this function to reduce its Cognitive Complexity from 27 to the 15 allowed.(ƒ¿Ôªşÿÿÿÿ
+Rpython:S1135§"4Complete the task associated to this "TODO" comment.(õÁäèÿÿÿÿÿ
+Upython:S5754²"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Upython:S5754™"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Gpython:S1172".Remove the unused function parameter "season".(ÛÆ˜å
+Epython:S1172",Remove the unused function parameter "imdb".(ÛÆ˜å
+mpython:S3776"TRefactor this function to reduce its Cognitive Complexity from 52 to the 15 allowed.(ÛÆ˜å
+Rpython:S1135Ÿ"4Complete the task associated to this "TODO" comment.(“îÓÄùÿÿÿÿ
+Upython:S5754«"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Upython:S5754«"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Rpython:S1135²"4Complete the task associated to this "TODO" comment.(‚­ÔÒıÿÿÿÿ
+Upython:S5754×"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Upython:S5754ã"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Upython:S5754ø"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Spython:S5857ê":Replace this use of a reluctant quantifier with "[^ã€‘]*".(ˆü´©
+Qpython:S5857ô"8Replace this use of a reluctant quantifier with "[^]]*".(Ù·Ç
+Upython:S5754"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Upython:S5754˜"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Mpython:S1135‹"4Complete the task associated to this "TODO" comment.(©…©¤
+Bpython:S5869”"*Remove duplicates in this character class.(¡ÚÀ!
+Upython:S5754ª"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Lpython:S1172¯".Remove the unused function parameter "caller".(ˆ°äşıÿÿÿÿ
+Ipython:S5806±"+Rename this variable; it shadows a builtin.(ĞÁ¤¨úÿÿÿÿ
+Upython:S5754Ì"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Upython:S5754à"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Upython:S5754í"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Upython:S5754ô"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Upython:S5754û"<Specify an exception class to catch or reraise the exception(ˆÊÉ·

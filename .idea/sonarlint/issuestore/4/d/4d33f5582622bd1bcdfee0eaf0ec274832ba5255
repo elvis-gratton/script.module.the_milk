@@ -1,0 +1,25 @@
+
+qpython:S1192:"TDefine a constant instead of duplicating this literal 'dwn-btn torrent-dwn' 4 times.(ê¸˜¼ùÿÿÿÿ
+mpython:S116"QRename this field "hasMovies" to match the regular expression ^[_a-z][_a-z0-9]*$.(ÒŒ‘†üÿÿÿÿ
+opython:S116"SRename this field "hasEpisodes" to match the regular expression ^[_a-z][_a-z0-9]*$.(ŞäÔüÿÿÿÿÿ
+Qpython:S3516"9Refactor this method to not always return the same value.(ŞŸ½
+kpython:S117"TRename this parameter "hostDict" to match the regular expression ^[_a-z][a-z0-9_]*$.(ŞŸ½
+lpython:S3776"TRefactor this function to reduce its Cognitive Complexity from 29 to the 15 allowed.(ŞŸ½
+Tpython:S57544"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Tpython:S5754d"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Hpython:S5806?"+Rename this variable; it shadows a builtin.(…Œ¬ãûÿÿÿÿ
+Ypython:S6019?"<Remove the '?' from this unnecessarily reluctant quantifier.(…Œ¬ãûÿÿÿÿ
+Tpython:S5754T"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Spython:S6353R";Use concise character class syntax '\d' instead of '[0-9]'.(Ùğè
+Tpython:S5754\"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Hpython:S1172h"0Remove the unused function parameter "hostDict".(ŒÆ¿©
+kpython:S117h"TRename this parameter "hostDict" to match the regular expression ^[_a-z][a-z0-9_]*$.(ŒÆ¿©
+Upython:S5754Œ"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+rpython:S3776"TRefactor this function to reduce its Cognitive Complexity from 40 to the 15 allowed.(µÇÛßşÿÿÿÿ
+Upython:S5754—"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Upython:S5754Û"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Ipython:S5806£"+Rename this variable; it shadows a builtin.(…Œ¬ãûÿÿÿÿ
+Zpython:S6019£"<Remove the '?' from this unnecessarily reluctant quantifier.(…Œ¬ãûÿÿÿÿ
+Upython:S5754Å"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Tpython:S6353Ã";Use concise character class syntax '\d' instead of '[0-9]'.(Ùğè
+Upython:S5754Í"<Specify an exception class to catch or reraise the exception(ˆÊÉ·

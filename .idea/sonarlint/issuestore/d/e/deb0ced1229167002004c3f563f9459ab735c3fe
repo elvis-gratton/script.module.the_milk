@@ -1,0 +1,4 @@
+
+upython:S1542"XRename function "getPossibleCiphers" to match the regular expression ^[a-z_][a-z0-9_]*$.(ÖªÖÂÿÿÿÿÿ
+qpython:S1542"TRename function "_pythonVersion" to match the regular expression ^[a-z_][a-z0-9_]*$.(îÏÉâùÿÿÿÿ
+mpython:S1542-"PRename function "systemInfo" to match the regular expression ^[a-z_][a-z0-9_]*$.(Ä³½˜þÿÿÿÿ

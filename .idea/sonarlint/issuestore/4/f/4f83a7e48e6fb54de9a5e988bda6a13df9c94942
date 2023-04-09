@@ -1,0 +1,20 @@
+
+jpython:S116"SRename this field "hasEpisodes" to match the regular expression ^[_a-z][_a-z0-9]*$.(‰Â•¥
+hpython:S116"QRename this field "hasMovies" to match the regular expression ^[_a-z][_a-z0-9]*$.(¨¯úπ
+Qpython:S3516 "9Refactor this method to not always return the same value.(ﬁüèΩ
+kpython:S117 "TRename this parameter "hostDict" to match the regular expression ^[_a-z][a-z0-9_]*$.(ﬁüèΩ
+lpython:S3776 "TRefactor this function to reduce its Cognitive Complexity from 28 to the 15 allowed.(ﬁüèΩ
+Tpython:S5754@"<Specify an exception class to catch or reraise the exception(à …∑
+Tpython:S5754h"<Specify an exception class to catch or reraise the exception(à …∑
+Hpython:S5806F"+Rename this variable; it shadows a builtin.(ºπﬁ¢˝ˇˇˇˇ
+Tpython:S5754X"<Specify an exception class to catch or reraise the exception(à …∑
+Tpython:S5754_"<Specify an exception class to catch or reraise the exception(à …∑
+Hpython:S1172l"0Remove the unused function parameter "hostDict".(å∆ø©
+kpython:S117l"TRename this parameter "hostDict" to match the regular expression ^[_a-z][a-z0-9_]*$.(å∆ø©
+Upython:S5754í"<Specify an exception class to catch or reraise the exception(à …∑
+rpython:S3776ñ"TRefactor this function to reduce its Cognitive Complexity from 39 to the 15 allowed.(µ«€ﬂ˛ˇˇˇˇ
+Upython:S5754û"<Specify an exception class to catch or reraise the exception(à …∑
+Upython:S5754◊"<Specify an exception class to catch or reraise the exception(à …∑
+Ipython:S5806§"+Rename this variable; it shadows a builtin.(ºπﬁ¢˝ˇˇˇˇ
+Upython:S5754¬"<Specify an exception class to catch or reraise the exception(à …∑
+Upython:S5754…"<Specify an exception class to catch or reraise the exception(à …∑

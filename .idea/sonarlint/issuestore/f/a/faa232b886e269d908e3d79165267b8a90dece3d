@@ -1,0 +1,67 @@
+
+upython:S1192½"WDefine a constant instead of duplicating this literal 'Request-Error url=(%s)' 3 times.(çö¢®øÿÿÿÿ
+kpython:S117"ORename this parameter "XHR" to match the regular expression ^[_a-z][a-z0-9_]*$.(ø§ÒŽýÿÿÿÿ
+opython:S117"XRename this parameter "ignoreErrors" to match the regular expression ^[_a-z][a-z0-9_]*$.(©·øÀ
+lpython:S117"URename this parameter "verifySsl" to match the regular expression ^[_a-z][a-z0-9_]*$.(îÆß­
+jpython:S107"NFunction "request" has 19 parameters, which is greater than the 13 authorized.(ø§ÒŽýÿÿÿÿ
+rpython:S3776"URefactor this function to reduce its Cognitive Complexity from 183 to the 15 allowed.(ø§ÒŽýÿÿÿÿ
+Upython:S5754¹"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Tpython:S57546"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Xpython:S48302"@Enable server certificate validation on this SSL/TLS connection.(áØ²Ú
+Wpython:S55272"?Enable server hostname verification on this SSL/TLS connection.(áØ²Ú
+Tpython:S5754H"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Wpython:S5527B"?Enable server hostname verification on this SSL/TLS connection.(ç×·
+Tpython:S5754N"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+@python:S108Q")Either remove or fill this block of code.(ã‘Û¾
+@python:S108W")Either remove or fill this block of code.(ã‘Û¾
+@python:S108]")Either remove or fill this block of code.(ã‘Û¾
+@python:S108a")Either remove or fill this block of code.(ã‘Û¾
+@python:S108e")Either remove or fill this block of code.(ã‘Û¾
+Tpython:S5754z"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Upython:S5754…"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Upython:S5754Ž"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Upython:S5754°"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Upython:S5754œ"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Upython:S5754©"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Upython:S5754Ê"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Upython:S5754Ó"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Upython:S5754×"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Upython:S5754æ"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Upython:S5754ë"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Upython:S5754ò"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Upython:S5754€"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Upython:S5754–"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Upython:S5754¤"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Upython:S5754ª"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Upython:S5754®"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Upython:S5754²"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Upython:S5754É"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Upython:S5754Ã"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Upython:S5754Ø"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Upython:S5754ì"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Upython:S5754è"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+gpython:S1542ñ"NRename function "parseDOM" to match the regular expression ^[a-z_][a-z0-9_]*$.(¶šž±
+Upython:S5754û"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+opython:S1542€"VRename function "replaceHTMLCodes" to match the regular expression ^[a-z_][a-z0-9_]*$.(‡Ž¦º
+ppython:S1542…"WRename function "_replaceHTMLCodes" to match the regular expression ^[a-z_][a-z0-9_]*$.(ÊÚŸõ
+Upython:S5754–"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Tpython:S6353ˆ";Use concise character class syntax '\d' instead of '[0-9]'.(‡‹ï°
+mpython:S1542œ"ORename function "cleanHTML" to match the regular expression ^[a-z_][a-z0-9_]*$.(åáààþÿÿÿÿ
+Qpython:S5857"8Replace this use of a reluctant quantifier with "[^>]+".(ãÃè–
+Qpython:S5857"8Replace this use of a reluctant quantifier with "[^>]+".(ãÃè–
+Cpython:S1481¿"%Remove the unused local variable "i".(¯ëÝšøÿÿÿÿ
+Cpython:S1481Â"%Remove the unused local variable "i".(£ÑÕ£üÿÿÿÿ
+xpython:S117Ù"[Rename this local variable "decryptVal" to match the regular expression ^[_a-z][a-z0-9_]*$.(®¥Ú€þÿÿÿÿ
+Upython:S5754÷"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Upython:S5754Ò"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+~python:S3699î"`Remove this use of the output from "install_opener"; "install_opener" doesnâ€™t return anything.(ÝÅÌþÿÿÿÿ
+Upython:S5754ó"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+npython:S100û"QRename method "parseJSString" to match the regular expression ^[a-z_][a-z0-9_]*$.(žßøÄüÿÿÿÿ
+Upython:S5754"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+wpython:S117"ZRename this local variable "url_Parts" to match the regular expression ^[_a-z][a-z0-9_]*$.(í©Ãùÿÿÿÿ
+Upython:S5754˜"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+kpython:S100"SRename method "getCookieString" to match the regular expression ^[a-z_][a-z0-9_]*$.(°’ä
+Ipython:S5806ž"+Rename this variable; it shadows a builtin.(Þšý–ÿÿÿÿÿ
+Upython:S5754Ç"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+^python:S5361À"@Replace this "re.sub()" call by a "str.replace()" function call.(ˆ·ä·þÿÿÿÿ
+Ypython:S5361Á"@Replace this "re.sub()" call by a "str.replace()" function call.(Àõ›³

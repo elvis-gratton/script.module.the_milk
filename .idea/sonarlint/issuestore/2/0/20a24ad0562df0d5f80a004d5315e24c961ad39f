@@ -1,0 +1,13 @@
+
+Gpython:S1066I"/Merge this if statement with the enclosing one.(‹ÿš¯
+hpython:S116"QRename this field "hasMovies" to match the regular expression ^[_a-z][_a-z0-9]*$.(¬øœ¹
+jpython:S116"SRename this field "hasEpisodes" to match the regular expression ^[_a-z][_a-z0-9]*$.(äå¥´
+Hpython:S1172"0Remove the unused function parameter "hostDict".(ÞŸ½
+Qpython:S3516"9Refactor this method to not always return the same value.(ÞŸ½
+kpython:S117"TRename this parameter "hostDict" to match the regular expression ^[_a-z][a-z0-9_]*$.(ÞŸ½
+lpython:S3776"TRefactor this function to reduce its Cognitive Complexity from 41 to the 15 allowed.(ÞŸ½
+Tpython:S5754>"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Tpython:S5754l"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Tpython:S5754d"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Tpython:S5754x"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+upython:S4143"\Verify this is the key that was intended; a value has already been saved for it on line 128.(ÁÈöû

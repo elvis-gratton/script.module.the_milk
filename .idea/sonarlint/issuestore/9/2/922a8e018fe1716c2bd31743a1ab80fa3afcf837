@@ -1,0 +1,12 @@
+
+ƒpython:S101"gRename class "captchaSolver" to match the regular expression ^_?([A-Z_][a-zA-Z0-9]*|[a-z_][a-z0-9_]*)$.(ÒΨϊÿÿÿÿ
+hpython:S117m"QRename this parameter "jobID" to match the regular expression ^[_a-z][a-z0-9_]*$.(–Ωϊ
+kpython:S1542s"SRename function "_checkRequest" to match the regular expression ^[a-z_][a-z0-9_]*$.(ΨΩ΄„
+xpython:S117›"[Rename this local variable "captchaMap" to match the regular expression ^[_a-z][a-z0-9_]*$.(ίτόÿÿÿÿ
+tpython:S117’"WRename this parameter "captchaType" to match the regular expression ^[_a-z][a-z0-9_]*$.(£ΟΎ§όÿÿÿÿ
+ppython:S117’"SRename this parameter "siteKey" to match the regular expression ^[_a-z][a-z0-9_]*$.(£ΟΎ§όÿÿÿÿ
+lpython:S1542“"SRename function "_checkRequest" to match the regular expression ^[a-z_][a-z0-9_]*$.(ΨΩ΄„
+opython:S117»"WRename this parameter "captchaType" to match the regular expression ^[_a-z][a-z0-9_]*$.(ζ“θ
+npython:S117Ό"VRename this local variable "jobID" to match the regular expression ^[_a-z][a-z0-9_]*$.(βςΘ
+spython:S117»"[Rename this parameter "reCaptchaParams" to match the regular expression ^[_a-z][a-z0-9_]*$.(ζ“θ
+kpython:S117»"SRename this parameter "siteKey" to match the regular expression ^[_a-z][a-z0-9_]*$.(ζ“θ

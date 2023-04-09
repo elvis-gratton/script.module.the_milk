@@ -1,0 +1,13 @@
+
+jpython:S116"SRename this field "hasEpisodes" to match the regular expression ^[_a-z][_a-z0-9]*$.(äå¥´
+hpython:S116"QRename this field "hasMovies" to match the regular expression ^[_a-z][_a-z0-9]*$.(¬øœ¹
+kpython:S117"TRename this parameter "hostDict" to match the regular expression ^[_a-z][a-z0-9_]*$.(ŞŸ½
+ypython:S117L"]Rename this local variable "isSeasonList" to match the regular expression ^[_a-z][a-z0-9_]*$.(…û¨«ùÿÿÿÿ
+lpython:S3776"TRefactor this function to reduce its Cognitive Complexity from 87 to the 15 allowed.(ŞŸ½
+Tpython:S57540"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Upython:S5754„"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Upython:S58577"8Replace this use of a reluctant quantifier with "[^>]*".(óõ½Ûüÿÿÿÿ
+Tpython:S5754_"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Upython:S5754‚"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Tpython:S5754z"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+lpython:S5843v"TSimplify this regular expression to reduce its complexity from 25 to the 20 allowed.(Àû™Ë

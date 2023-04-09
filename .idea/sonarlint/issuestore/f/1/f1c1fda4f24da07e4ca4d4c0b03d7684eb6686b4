@@ -1,0 +1,13 @@
+
+gpython:S11920"ODefine a constant instead of duplicating this literal ':*?"\'\.<>|&!,' 3 times.(¥ÖÙÐ
+Xpython:S6353";Use concise character class syntax '\d' instead of '[0-9]'.(£²Œýøÿÿÿÿ
+Mpython:S6397"5Replace this character class by the character itself.(Ø‘¶Ä
+Bpython:S5869"*Remove duplicates in this character class.(Ø‘¶Ä
+Spython:S5857";Replace this use of a reluctant quantifier with "[^}\]>]*".(Ø‘¶Ä
+Xpython:S6353";Use concise character class syntax '\d' instead of '[0-9]'.(£²Œýøÿÿÿÿ
+Mpython:S6035""0Replace this alternation with a character class.(ïÀÖîýÿÿÿÿ
+Ipython:S5855"",Remove or rework this redundant alternative.(ïÀÖîýÿÿÿÿ
+Upython:S5857$"8Replace this use of a reluctant quantifier with "[^>]*".(¿ø—›þÿÿÿÿ
+Tpython:S57541"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Tpython:S57544"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Qpython:S1135="4Complete the task associated to this "TODO" comment.(žÛ¦öúÿÿÿÿ

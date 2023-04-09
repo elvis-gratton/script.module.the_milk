@@ -1,0 +1,15 @@
+
+jpython:S116"SRename this field "hasEpisodes" to match the regular expression ^[_a-z][_a-z0-9]*$.(‰Â•¥
+hpython:S116"QRename this field "hasMovies" to match the regular expression ^[_a-z][_a-z0-9]*$.(¨¯úπ
+kpython:S117 "TRename this parameter "hostDict" to match the regular expression ^[_a-z][a-z0-9_]*$.(ﬁüèΩ
+Tpython:S57544"<Specify an exception class to catch or reraise the exception(à …∑
+npython:S1178"WRename this parameter "accessToken" to match the regular expression ^[_a-z][a-z0-9_]*$.(Ñ£üƒ
+opython:S1178"XRename this parameter "plexShareURL" to match the regular expression ^[_a-z][a-z0-9_]*$.(Ñ£üƒ
+npython:S1178"WRename this parameter "sourceTitle" to match the regular expression ^[_a-z][a-z0-9_]*$.(Ñ£üƒ
+lpython:S37768"TRefactor this function to reduce its Cognitive Complexity from 43 to the 15 allowed.(Ñ£üƒ
+Tpython:S5754_"<Specify an exception class to catch or reraise the exception(à …∑
+]python:S4830V"@Enable server certificate validation on this SSL/TLS connection.(Ì•…∞˝ˇˇˇˇ
+Upython:S5754™"<Specify an exception class to catch or reraise the exception(à …∑
+Spython:S6353k";Use concise character class syntax '\d' instead of '[0-9]'.(√Û¿ı
+Upython:S5754ç"<Specify an exception class to catch or reraise the exception(à …∑
+Upython:S5754¢"<Specify an exception class to catch or reraise the exception(à …∑

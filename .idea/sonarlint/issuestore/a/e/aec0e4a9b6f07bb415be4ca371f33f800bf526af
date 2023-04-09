@@ -1,0 +1,37 @@
+
+epython:S1192)"MDefine a constant instead of duplicating this literal 'settings.xml' 4 times.(Å’ŞË
+opython:S1192"WDefine a constant instead of duplicating this literal 'script.module.the_milk' 3 times.(Íå®
+qpython:S15421"TRename function "getKodiVersion" to match the regular expression ^[a-z_][a-z0-9_]*$.(ÏÓüéûÿÿÿÿ
+Tpython:S5754;"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+hpython:S1542H"PRename function "setSetting" to match the regular expression ^[a-z_][a-z0-9_]*$.(õÙß–
+xpython:S117P"\Rename this local variable "curSettings" to match the regular expression ^[_a-z][a-z0-9_]*$.(ù–Û»úÿÿÿÿ
+Tpython:S5754`"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Tpython:S5754Y"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+spython:S1542d"[Rename function "refresh_debugReversed" to match the regular expression ^[a-z_][a-z0-9_]*$.(Êï” 
+xpython:S117…"[Rename this local variable "curVersion" to match the regular expression ^[_a-z][a-z0-9_]*$.(ÅíğÃûÿÿÿÿ
+spython:S117"[Rename this local variable "oldVersion" to match the regular expression ^[_a-z][a-z0-9_]*$.(©ÈÈƒ
+spython:S117u"\Rename this local variable "versionFile" to match the regular expression ^[_a-z][a-z0-9_]*$.(”ÃÏô
+lpython:S1542t"URename function "isVersionUpdate" to match the regular expression ^[a-z_][a-z0-9_]*$.(Š»Åy
+Tpython:S5754z"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Upython:S5754‚"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Upython:S5754Œ"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+mpython:S3776’"TRefactor this function to reduce its Cognitive Complexity from 25 to the 15 allowed.(—ÏÿÔ
+Upython:S5754Ó"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Upython:S5754Å"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+kpython:S1542Ù"MRename function "addonId" to match the regular expression ^[a-z_][a-z0-9_]*$.(Ëà„¦øÿÿÿÿ
+mpython:S1542İ"ORename function "addonName" to match the regular expression ^[a-z_][a-z0-9_]*$.(ô±ÈÁøÿÿÿÿ
+ppython:S1542á"RRename function "addonVersion" to match the regular expression ^[a-z_][a-z0-9_]*$.(ÊøŠºúÿÿÿÿ
+hpython:S1542å"ORename function "addonIcon" to match the regular expression ^[a-z_][a-z0-9_]*$.(ø±û‡
+mpython:S1542é"ORename function "addonPath" to match the regular expression ^[a-z_][a-z0-9_]*$.(åÑøñøÿÿÿÿ
+ppython:S1542í"RRename function "addonEnabled" to match the regular expression ^[a-z_][a-z0-9_]*$.(–¤¿…üÿÿÿÿ
+mpython:S1542ñ"TRename function "addonInstalled" to match the regular expression ^[a-z_][a-z0-9_]*$.(éÉ™
+kpython:S1542õ"RRename function "openSettings" to match the regular expression ^[a-z_][a-z0-9_]*$.(²•×
+Upython:S5754ı"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+wpython:S1542"YRename function "getProviderDefaults" to match the regular expression ^[a-z_][a-z0-9_]*$.(Ğø¤èùÿÿÿÿ
+Upython:S5754‹"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+wpython:S1542"YRename function "setProviderDefaults" to match the regular expression ^[a-z_][a-z0-9_]*$.(ú¾Øÿüÿÿÿÿ
+Upython:S5754”"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+jpython:S1542º"QRename function "yesnoDialog" to match the regular expression ^[a-z_][a-z0-9_]*$.(ğ›Ò
+kpython:S1542¾"RRename function "selectDialog" to match the regular expression ^[a-z_][a-z0-9_]*$.(¼àã±
+upython:S1542Â"WRename function "multiselectDialog" to match the regular expression ^[a-z_][a-z0-9_]*$.(æŞÃ¡şÿÿÿÿ
+lpython:S1542Æ"NRename function "okDialog" to match the regular expression ^[a-z_][a-z0-9_]*$.(‘—á“øÿÿÿÿ

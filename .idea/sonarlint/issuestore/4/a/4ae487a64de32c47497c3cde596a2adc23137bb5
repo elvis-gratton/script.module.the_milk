@@ -1,0 +1,10 @@
+
+jpython:S116"SRename this field "hasEpisodes" to match the regular expression ^[_a-z][_a-z0-9]*$.(‰Â•¥
+hpython:S116"QRename this field "hasMovies" to match the regular expression ^[_a-z][_a-z0-9]*$.(¨¯úπ
+kpython:S117"TRename this parameter "hostDict" to match the regular expression ^[_a-z][a-z0-9_]*$.(ﬁüèΩ
+Tpython:S5754<"<Specify an exception class to catch or reraise the exception(à …∑
+Tpython:S5754i"<Specify an exception class to catch or reraise the exception(à …∑
+Hpython:S5806H"+Rename this variable; it shadows a builtin.(ØñÖ”˙ˇˇˇˇ
+Tpython:S5754X"<Specify an exception class to catch or reraise the exception(à …∑
+Xpython:S6353V";Use concise character class syntax '\d' instead of '[0-9]'.(¡®é„˘ˇˇˇˇ
+Tpython:S5754`"<Specify an exception class to catch or reraise the exception(à …∑

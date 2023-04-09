@@ -1,0 +1,13 @@
+
+lpython:S5843"TSimplify this regular expression to reduce its complexity from 21 to the 20 allowed.(’©÷â
+Spython:S6353";Use concise character class syntax '\d' instead of '[0-9]'.(’©÷â
+hpython:S116"QRename this field "hasMovies" to match the regular expression ^[_a-z][_a-z0-9]*$.(¬øœ¹
+jpython:S116"SRename this field "hasEpisodes" to match the regular expression ^[_a-z][_a-z0-9]*$.(äå¥´
+kpython:S117"TRename this parameter "hostDict" to match the regular expression ^[_a-z][a-z0-9_]*$.(ÞŸ½
+Tpython:S5754>"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+lpython:S3776B"TRefactor this function to reduce its Cognitive Complexity from 26 to the 15 allowed.(žïÒ€
+Tpython:S5754s"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Tpython:S5754P"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Hpython:S5806S"+Rename this variable; it shadows a builtin.(¯–…Óúÿÿÿÿ
+Tpython:S5754c"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Tpython:S5754j"<Specify an exception class to catch or reraise the exception(ˆÊÉ·

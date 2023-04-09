@@ -1,0 +1,24 @@
+
+hpython:S116"QRename this field "hasMovies" to match the regular expression ^[_a-z][_a-z0-9]*$.(¬øœ¹
+jpython:S116"SRename this field "hasEpisodes" to match the regular expression ^[_a-z][_a-z0-9]*$.(äå¥´
+Tpython:S5754/"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Tpython:S5754,"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+kpython:S1173"TRename this parameter "hostDict" to match the regular expression ^[_a-z][a-z0-9_]*$.(ÞŸ½
+Tpython:S5754X"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+qpython:S3776\"TRefactor this function to reduce its Cognitive Complexity from 25 to the 15 allowed.(µÊÇ ýÿÿÿÿ
+Tpython:S5754b"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Upython:S5754"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Tpython:S5754l"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Hpython:S5806n"+Rename this variable; it shadows a builtin.(¯–…Óúÿÿÿÿ
+Tpython:S5754~"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Upython:S5754…"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Ipython:S1172"0Remove the unused function parameter "hostDict".(ŒÆ¿©
+lpython:S117"TRename this parameter "hostDict" to match the regular expression ^[_a-z][a-z0-9_]*$.(ŒÆ¿©
+Upython:S5754µ"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+rpython:S3776¹"TRefactor this function to reduce its Cognitive Complexity from 39 to the 15 allowed.(µÇÛßþÿÿÿÿ
+Upython:S5754¾"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Upython:S5754ú"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Upython:S5754È"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Ipython:S5806Ê"+Rename this variable; it shadows a builtin.(¯–…Óúÿÿÿÿ
+Upython:S5754æ"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Upython:S5754í"<Specify an exception class to catch or reraise the exception(ˆÊÉ·

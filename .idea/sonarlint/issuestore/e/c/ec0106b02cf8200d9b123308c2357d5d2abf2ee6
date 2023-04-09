@@ -1,0 +1,7 @@
+
+ppython:S117*"YRename this parameter "captchaParams" to match the regular expression ^[_a-z][a-z0-9_]*$.(υοστ
+npython:S117*"WRename this parameter "captchaType" to match the regular expression ^[_a-z][a-z0-9_]*$.(υοστ
+jpython:S117*"SRename this parameter "siteKey" to match the regular expression ^[_a-z][a-z0-9_]*$.(υοστ
+opython:S117/"YRename this parameter "captchaParams" to match the regular expression ^[_a-z][a-z0-9_]*$.(ΗΡ‹P
+mpython:S117/"WRename this parameter "captchaType" to match the regular expression ^[_a-z][a-z0-9_]*$.(ΗΡ‹P
+ipython:S117/"SRename this parameter "siteKey" to match the regular expression ^[_a-z][a-z0-9_]*$.(ΗΡ‹P

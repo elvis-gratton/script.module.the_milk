@@ -1,0 +1,10 @@
+
+…python:S1192î"gDefine a constant instead of duplicating this literal 'initialization vector must be 16 bytes' 3 times.(ÖˆÛÎûÿÿÿÿ
+bpython:S116„"JRename this field "Si" to match the regular expression ^[_a-z][_a-z0-9]*$.(Ò¹æü
+cpython:S116þ"KRename this field "_Ke" to match the regular expression ^[_a-z][_a-z0-9]*$.(‘³ËÅ
+cpython:S116"KRename this field "_Kd" to match the regular expression ^[_a-z][_a-z0-9]*$.(àÿ²ã
+rpython:S3776ö"TRefactor this function to reduce its Cognitive Complexity from 21 to the 15 allowed.(µ¥áûûÿÿÿÿ
+>python:S1481þ"%Remove the unused local variable "i".(‘³ËÅ
+>python:S1481"%Remove the unused local variable "i".(àÿ²ã
+[python:S112§">Replace this generic exception class with a more specific one.(žåŒçþÿÿÿÿ
+[python:S112ª">Replace this generic exception class with a more specific one.(žåŒçþÿÿÿÿ

@@ -1,0 +1,17 @@
+
+hpython:S1192I"QDefine a constant instead of duplicating this literal 'application/json' 4 times.(΅…ί^
+~python:S101"gRename class "captchaSolver" to match the regular expression ^_?([A-Z_][a-zA-Z0-9]*|[a-z_][a-z0-9_]*)$.(½Ϋ»
+kpython:S15428"SRename function "_checkRequest" to match the regular expression ^[a-z_][a-z0-9_]*$.(ΨΩ΄„
+mpython:S117X"QRename this parameter "jobID" to match the regular expression ^[_a-z][a-z0-9_]*$.(Γ„Σόÿÿÿÿ
+kpython:S1542^"SRename function "_checkRequest" to match the regular expression ^[a-z_][a-z0-9_]*$.(ΨΩ΄„
+hpython:S117}"QRename this parameter "jobID" to match the regular expression ^[_a-z][a-z0-9_]*$.(–Ωϊ
+lpython:S1542ƒ"SRename function "_checkRequest" to match the regular expression ^[a-z_][a-z0-9_]*$.(ΨΩ΄„
+tpython:S117"WRename this parameter "captchaType" to match the regular expression ^[_a-z][a-z0-9_]*$.(£ΟΎ§όÿÿÿÿ
+vpython:S117­"YRename this local variable "jPayload" to match the regular expression ^[_a-z][a-z0-9_]*$.(κ¦Α‹όÿÿÿÿ
+ppython:S117"SRename this parameter "siteKey" to match the regular expression ^[_a-z][a-z0-9_]*$.(£ΟΎ§όÿÿÿÿ
+lpython:S1542"SRename function "_checkRequest" to match the regular expression ^[a-z_][a-z0-9_]*$.(ΨΩ΄„
+qpython:S117β"YRename this parameter "captchaParams" to match the regular expression ^[_a-z][a-z0-9_]*$.(υοστ
+opython:S117β"WRename this parameter "captchaType" to match the regular expression ^[_a-z][a-z0-9_]*$.(υοστ
+xpython:S117ν"[Rename this local variable "hostParsed" to match the regular expression ^[_a-z][a-z0-9_]*$.(Ί‚ψώÿÿÿÿ
+npython:S117γ"VRename this local variable "jobID" to match the regular expression ^[_a-z][a-z0-9_]*$.(βςΘ
+kpython:S117β"SRename this parameter "siteKey" to match the regular expression ^[_a-z][a-z0-9_]*$.(υοστ

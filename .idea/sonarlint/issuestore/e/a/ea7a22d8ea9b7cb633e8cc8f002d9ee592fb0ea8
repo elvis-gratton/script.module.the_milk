@@ -1,0 +1,16 @@
+
+jpython:S116"SRename this field "hasEpisodes" to match the regular expression ^[_a-z][_a-z0-9]*$.(äå¥´
+hpython:S116"QRename this field "hasMovies" to match the regular expression ^[_a-z][_a-z0-9]*$.(¬øœ¹
+gpython:S116:"PRename this field "hostDict" to match the regular expression ^[_a-z][_a-z0-9]*$.(Öñ›û
+Tpython:S57541"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+kpython:S1175"TRename this parameter "hostDict" to match the regular expression ^[_a-z][a-z0-9_]*$.(ÞŸ½
+Epython:S1481B"(Remove the unused local variable "imdb".( ùàúÿÿÿÿ
+Tpython:S5754j"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+<python:S1481z"%Remove the unused local variable "s".(ä¡¬
+Bpython:S1481{"%Remove the unused local variable "s".(¢Éê†ÿÿÿÿÿ
+Upython:S5754“"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Jpython:S6395|"-Unwrap this unnecessarily grouped subpattern.(Ú—Éþÿÿÿÿ
+Gpython:S5869|"*Remove duplicates in this character class.(Ú—Éþÿÿÿÿ
+Gpython:S5869|"*Remove duplicates in this character class.(Ú—Éþÿÿÿÿ
+Upython:S5754Œ"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+mpython:S5843ˆ"TSimplify this regular expression to reduce its complexity from 25 to the 20 allowed.(Àû™Ë

@@ -1,0 +1,33 @@
+
+upython:S1192C"XDefine a constant instead of duplicating this literal 'card search-result my-2' 4 times.(¾²ƒ×şÿÿÿÿ
+hpython:S116"QRename this field "hasMovies" to match the regular expression ^[_a-z][_a-z0-9]*$.(¬øœ¹
+jpython:S116"SRename this field "hasEpisodes" to match the regular expression ^[_a-z][_a-z0-9]*$.(äå¥´
+kpython:S117"TRename this parameter "hostDict" to match the regular expression ^[_a-z][a-z0-9_]*$.(ŞŸ½
+Tpython:S5754<"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+qpython:S3776@"TRefactor this function to reduce its Cognitive Complexity from 28 to the 15 allowed.(µÊÇ ıÿÿÿÿ
+Tpython:S5754E"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Tpython:S5754q"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Hpython:S5806O"+Rename this variable; it shadows a builtin.(¯–…Óúÿÿÿÿ
+Tpython:S5754`"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Spython:S6353\";Use concise character class syntax '\d' instead of '[0-9]'.(Ú¯Ä¸
+Spython:S6353\";Use concise character class syntax '\d' instead of '[0-9]'.(Ú¯Ä¸
+Spython:S6353\";Use concise character class syntax '\d' instead of '[0-9]'.(Ú¯Ä¸
+Spython:S6353\";Use concise character class syntax '\d' instead of '[0-9]'.(Ú¯Ä¸
+Spython:S6353\";Use concise character class syntax '\d' instead of '[0-9]'.(Ú¯Ä¸
+Tpython:S5754h"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Ypython:S6019e"<Remove the '?' from this unnecessarily reluctant quantifier.(©·ó şÿÿÿÿ
+Hpython:S1172t"0Remove the unused function parameter "hostDict".(ŒÆ¿©
+kpython:S117t"TRename this parameter "hostDict" to match the regular expression ^[_a-z][a-z0-9_]*$.(ŒÆ¿©
+Upython:S5754™"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+rpython:S3776"TRefactor this function to reduce its Cognitive Complexity from 42 to the 15 allowed.(µÇÛßşÿÿÿÿ
+Upython:S5754¢"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Upython:S5754á"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Ipython:S5806¬"+Rename this variable; it shadows a builtin.(¯–…Óúÿÿÿÿ
+Upython:S5754Ë"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Tpython:S6353Ç";Use concise character class syntax '\d' instead of '[0-9]'.(Ú¯Ä¸
+Tpython:S6353Ç";Use concise character class syntax '\d' instead of '[0-9]'.(Ú¯Ä¸
+Tpython:S6353Ç";Use concise character class syntax '\d' instead of '[0-9]'.(Ú¯Ä¸
+Tpython:S6353Ç";Use concise character class syntax '\d' instead of '[0-9]'.(Ú¯Ä¸
+Tpython:S6353Ç";Use concise character class syntax '\d' instead of '[0-9]'.(Ú¯Ä¸
+Upython:S5754Ó"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Zpython:S6019Ğ"<Remove the '?' from this unnecessarily reluctant quantifier.(©·ó şÿÿÿÿ

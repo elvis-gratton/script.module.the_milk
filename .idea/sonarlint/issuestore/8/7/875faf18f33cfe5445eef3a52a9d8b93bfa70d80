@@ -1,0 +1,14 @@
+
+lpython:S1192"ODefine a constant instead of duplicating this literal 'plex.client_id' 3 times.(Â¢Ã¢ùÿÿÿÿ
+cpython:S1192"KDefine a constant instead of duplicating this literal 'plex.token' 3 times.(Ç¿¤û
+gpython:S1192"ODefine a constant instead of duplicating this literal 'plex.device_id' 3 times.(êÈç¤
+Tpython:S5754-"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+jpython:S100P"NRename method "get_authID" to match the regular expression ^[a-z_][a-z0-9_]*$.(«ó÷ûÿÿÿÿ
+spython:S117f"\Rename this local variable "accessToken" to match the regular expression ^[_a-z][a-z0-9_]*$.(„“¾´
+rpython:S117h"\Rename this local variable "sourceTitle" to match the regular expression ^[_a-z][a-z0-9_]*$.(ï–»R
+lpython:S3776Z"TRefactor this function to reduce its Cognitive Complexity from 20 to the 15 allowed.(ê¹“»
+epython:S100Š"MRename method "clearPlex" to match the regular expression ^[a-z_][a-z0-9_]*$.(ò™“ƒ
+Upython:S5754’"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Upython:S5754ª"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+tpython:S117²"WRename this parameter "sourceTitle" to match the regular expression ^[_a-z][a-z0-9_]*$.(¸Œóªøÿÿÿÿ
+Upython:S5754º"<Specify an exception class to catch or reraise the exception(ˆÊÉ·

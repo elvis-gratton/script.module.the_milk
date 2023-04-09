@@ -1,0 +1,28 @@
+
+ppython:S1192@"SDefine a constant instead of duplicating this literal r'btih:(.*?)(?:&|$)' 4 times.(íĞ°­üÿÿÿÿ
+mpython:S116"QRename this field "hasMovies" to match the regular expression ^[_a-z][_a-z0-9]*$.(ÒŒ‘†üÿÿÿÿ
+jpython:S116"SRename this field "hasEpisodes" to match the regular expression ^[_a-z][_a-z0-9]*$.(äå¥´
+Hpython:S1172"0Remove the unused function parameter "hostDict".(ŞŸ½
+Qpython:S3516"9Refactor this method to not always return the same value.(ŞŸ½
+kpython:S117"TRename this parameter "hostDict" to match the regular expression ^[_a-z][a-z0-9_]*$.(ŞŸ½
+lpython:S3776"TRefactor this function to reduce its Cognitive Complexity from 26 to the 15 allowed.(ŞŸ½
+Tpython:S57540"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Tpython:S5754b"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Tpython:S5754<"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Hpython:S5806@"+Rename this variable; it shadows a builtin.(íĞ°­üÿÿÿÿ
+cpython:S6019@"FFix this reluctant quantifier that will only ever match 0 repetitions.(íĞ°­üÿÿÿÿ
+cpython:S6019E"FFix this reluctant quantifier that will only ever match 0 repetitions.(ñÓøáÿÿÿÿÿ
+Tpython:S5754S"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Tpython:S5754Z"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Mpython:S1172f"5Remove the unused function parameter "total_seasons".(ŒÆ¿©
+Hpython:S1172f"0Remove the unused function parameter "hostDict".(ŒÆ¿©
+kpython:S117f"TRename this parameter "hostDict" to match the regular expression ^[_a-z][a-z0-9_]*$.(ŒÆ¿©
+lpython:S3776f"TRefactor this function to reduce its Cognitive Complexity from 32 to the 15 allowed.(ŒÆ¿©
+Tpython:S5754~"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Upython:S5754¸"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Upython:S5754Š"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Ipython:S5806"+Rename this variable; it shadows a builtin.(íĞ°­üÿÿÿÿ
+dpython:S6019"FFix this reluctant quantifier that will only ever match 0 repetitions.(íĞ°­üÿÿÿÿ
+dpython:S6019“"FFix this reluctant quantifier that will only ever match 0 repetitions.(ñÓøáÿÿÿÿÿ
+Upython:S5754¦"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Upython:S5754­"<Specify an exception class to catch or reraise the exception(ˆÊÉ·

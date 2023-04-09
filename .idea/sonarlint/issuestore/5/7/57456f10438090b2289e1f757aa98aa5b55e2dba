@@ -1,0 +1,21 @@
+
+python:S1192i"…Define a constant instead of duplicating this literal r'((?:\d+\,\d+\.\d+|\d+\.\d+|\d+\,\d+|\d+)\s*(?:GB|GiB|Gb|MB|MiB|Mb))' 3 times.(Àû™Ë
+hpython:S116"QRename this field "hasMovies" to match the regular expression ^[_a-z][_a-z0-9]*$.(¬øœ¹
+jpython:S116"SRename this field "hasEpisodes" to match the regular expression ^[_a-z][_a-z0-9]*$.(äå¥´
+kpython:S117"TRename this parameter "hostDict" to match the regular expression ^[_a-z][a-z0-9_]*$.(ŞŸ½
+zpython:S117-"^Rename this local variable "isSeasonQuery" to match the regular expression ^[_a-z][a-z0-9_]*$.(¾¼®êıÿÿÿÿ
+Npython:S1481-"1Remove the unused local variable "isSeasonQuery".(¾¼®êıÿÿÿÿ
+Ipython:S1481C"1Remove the unused local variable "isSeasonQuery".(òØ€ÿ
+Cpython:S1481""+Remove the unused local variable "aliases".(„ğÎØ
+lpython:S3776"TRefactor this function to reduce its Cognitive Complexity from 85 to the 15 allowed.(ŞŸ½
+Tpython:S5754J"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Upython:S5754¥"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Tpython:S5754e"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Tpython:S5754k"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+lpython:S5843i"TSimplify this regular expression to reduce its complexity from 25 to the 20 allowed.(Àû™Ë
+Tpython:S5754w"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+lpython:S5843u"TSimplify this regular expression to reduce its complexity from 25 to the 20 allowed.(Àû™Ë
+Upython:S5754"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Upython:S5754™"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+mpython:S5843—"TSimplify this regular expression to reduce its complexity from 25 to the 20 allowed.(‹ò™ø
+[python:S112š">Replace this generic exception class with a more specific one.(Ğş¾°øÿÿÿÿ

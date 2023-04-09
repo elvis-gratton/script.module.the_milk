@@ -1,0 +1,12 @@
+
+Kpython:S1172".Remove the unused function parameter "caller".(§”şÿÿÿÿ
+rpython:S117"[Rename this local variable "sourceDict" to match the regular expression ^[_a-z][a-z0-9_]*$.(Ë¨ö«
+python:S117"eRename this local variable "sourceFolderLocation" to match the regular expression ^[_a-z][a-z0-9_]*$.(‚„äûÿÿÿÿ
+xpython:S117"aRename this local variable "sourceSubFolders" to match the regular expression ^[_a-z][a-z0-9_]*$.(­ü‹µ
+lpython:S3776"TRefactor this function to reduce its Cognitive Complexity from 21 to the 15 allowed.(ˆ®ìŒ
+jpython:S15422"RRename function "enabledCheck" to match the regular expression ^[a-z_][a-z0-9_]*$.(—µÍ“
+Qpython:S3516@"9Refactor this method to not always return the same value.(äüàö
+python:S117D"eRename this local variable "sourceFolderLocation" to match the regular expression ^[_a-z][a-z0-9_]*$.(‚„äûÿÿÿÿ
+rpython:S117B"[Rename this local variable "sourceList" to match the regular expression ^[_a-z][a-z0-9_]*$.(³ÙŞŠ
+~python:S117C"bRename this local variable "sourceList_append" to match the regular expression ^[_a-z][a-z0-9_]*$.(±±ÑÂşÿÿÿÿ
+rpython:S117@"[Rename this parameter "sourceSubFolder" to match the regular expression ^[_a-z][a-z0-9_]*$.(äüàö

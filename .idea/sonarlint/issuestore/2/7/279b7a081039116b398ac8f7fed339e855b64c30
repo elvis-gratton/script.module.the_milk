@@ -1,0 +1,13 @@
+
+jpython:S1192"LDefine a constant instead of duplicating this literal '"("+p+")")}' 3 times.(¤åÀ¿şÿÿÿÿ
+lpython:S3776_"TRefactor this function to reduce its Cognitive Complexity from 40 to the 15 allowed.(µßÜ”
+npython:S117o"RRename this parameter "jsFuck" to match the regular expression ^[_a-z][a-z0-9_]*$.(¥ÈÁÊûÿÿÿÿ
+qpython:S1542o"TRename function "jsfuckToNumber" to match the regular expression ^[a-z_][a-z0-9_]*$.(¥ÈÁÊûÿÿÿÿ
+spython:S117†"[Rename this local variable "jsfuckMath" to match the regular expression ^[_a-z][a-z0-9_]*$.(ûç´«
+jpython:S1542…"QRename function "divisorMath" to match the regular expression ^[a-z_][a-z0-9_]*$.(Õâ³÷
+}python:S117Ğ"`Rename this local variable "expressionMatch" to match the regular expression ^[_a-z][a-z0-9_]*$.(š¯­ùÿÿÿÿ
+xpython:S117"`Rename this local variable "jsfuckChallenge" to match the regular expression ^[_a-z][a-z0-9_]*$.(³çéá
+qpython:S117¯"TRename this local variable "kID" to match the regular expression ^[_a-z][a-z0-9_]*$.(üç§Òúÿÿÿÿ
+upython:S117§"XRename this local variable "kJSFUCK" to match the regular expression ^[_a-z][a-z0-9_]*$.(æŸÖÅúÿÿÿÿ
+ppython:S117¶"XRename this local variable "kValues" to match the regular expression ^[_a-z][a-z0-9_]*$.(åÓ”Ï
+rpython:S1542™"TRename function "challengeSolve" to match the regular expression ^[a-z_][a-z0-9_]*$.(îÊÅ½ÿÿÿÿÿ

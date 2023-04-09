@@ -1,0 +1,29 @@
+
+dpython:S11922"GDefine a constant instead of duplicating this literal '<tbody' 4 times.(Ê³óÚüÿÿÿÿ
+hpython:S116"QRename this field "hasMovies" to match the regular expression ^[_a-z][_a-z0-9]*$.(¬øœ¹
+jpython:S116"SRename this field "hasEpisodes" to match the regular expression ^[_a-z][_a-z0-9]*$.(äå¥´
+Qpython:S3516"9Refactor this method to not always return the same value.(ÞŸ½
+kpython:S117"TRename this parameter "hostDict" to match the regular expression ^[_a-z][a-z0-9_]*$.(ÞŸ½
+lpython:S3776"TRefactor this function to reduce its Cognitive Complexity from 40 to the 15 allowed.(ÞŸ½
+Tpython:S57546"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Tpython:S5754?"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Zpython:S112;">Replace this generic exception class with a more specific one.(÷”‚ýÿÿÿÿ
+Upython:S112=">Replace this generic exception class with a more specific one.(ÙÐÂ‰
+Tpython:S5754m"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Tpython:S5754J"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Hpython:S5806L"+Rename this variable; it shadows a builtin.(¯–…Óúÿÿÿÿ
+Tpython:S5754^"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Tpython:S5754e"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Hpython:S1172q"0Remove the unused function parameter "hostDict".(ŒÆ¿©
+kpython:S117q"TRename this parameter "hostDict" to match the regular expression ^[_a-z][a-z0-9_]*$.(ŒÆ¿©
+Upython:S5754—"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+rpython:S3776›"TRefactor this function to reduce its Cognitive Complexity from 46 to the 15 allowed.(â¥ÔÓýÿÿÿÿ
+Upython:S5754 "<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Upython:S5754©"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+[python:S112¥">Replace this generic exception class with a more specific one.(÷”‚ýÿÿÿÿ
+Vpython:S112§">Replace this generic exception class with a more specific one.(ÙÐÂ‰
+Upython:S5754é"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Upython:S5754´"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Ipython:S5806¶"+Rename this variable; it shadows a builtin.(¯–…Óúÿÿÿÿ
+Upython:S5754Ô"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Upython:S5754Û"<Specify an exception class to catch or reraise the exception(ˆÊÉ·

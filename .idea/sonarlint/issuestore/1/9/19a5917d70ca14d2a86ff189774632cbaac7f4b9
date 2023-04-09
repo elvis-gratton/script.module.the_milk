@@ -1,0 +1,24 @@
+
+hpython:S116"QRename this field "hasMovies" to match the regular expression ^[_a-z][_a-z0-9]*$.(¨¯úπ
+jpython:S116"SRename this field "hasEpisodes" to match the regular expression ^[_a-z][_a-z0-9]*$.(‰Â•¥
+kpython:S117"TRename this parameter "hostDict" to match the regular expression ^[_a-z][a-z0-9_]*$.(ﬁüèΩ
+Tpython:S5754;"<Specify an exception class to catch or reraise the exception(à …∑
+Tpython:S5754k"<Specify an exception class to catch or reraise the exception(à …∑
+Cpython:S5806E"+Rename this variable; it shadows a builtin.(©Ï≈õ
+Tpython:S5754Y"<Specify an exception class to catch or reraise the exception(à …∑
+Xpython:S6353W";Use concise character class syntax '\d' instead of '[0-9]'.(˝Ë◊∫˘ˇˇˇˇ
+Xpython:S6353W";Use concise character class syntax '\d' instead of '[0-9]'.(˝Ë◊∫˘ˇˇˇˇ
+Xpython:S6353W";Use concise character class syntax '\d' instead of '[0-9]'.(˝Ë◊∫˘ˇˇˇˇ
+Tpython:S5754b"<Specify an exception class to catch or reraise the exception(à …∑
+Hpython:S1172n"0Remove the unused function parameter "hostDict".(å∆ø©
+kpython:S117n"TRename this parameter "hostDict" to match the regular expression ^[_a-z][a-z0-9_]*$.(å∆ø©
+Upython:S5754ú"<Specify an exception class to catch or reraise the exception(à …∑
+Upython:S5754©"<Specify an exception class to catch or reraise the exception(à …∑
+rpython:S3776¨"TRefactor this function to reduce its Cognitive Complexity from 24 to the 15 allowed.(é¡˚“˚ˇˇˇˇ
+Upython:S5754Á"<Specify an exception class to catch or reraise the exception(à …∑
+Dpython:S5806≤"+Rename this variable; it shadows a builtin.(©Ï≈õ
+Upython:S5754—"<Specify an exception class to catch or reraise the exception(à …∑
+Ypython:S6353œ";Use concise character class syntax '\d' instead of '[0-9]'.(˝Ë◊∫˘ˇˇˇˇ
+Ypython:S6353œ";Use concise character class syntax '\d' instead of '[0-9]'.(˝Ë◊∫˘ˇˇˇˇ
+Ypython:S6353œ";Use concise character class syntax '\d' instead of '[0-9]'.(˝Ë◊∫˘ˇˇˇˇ
+Upython:S5754⁄"<Specify an exception class to catch or reraise the exception(à …∑

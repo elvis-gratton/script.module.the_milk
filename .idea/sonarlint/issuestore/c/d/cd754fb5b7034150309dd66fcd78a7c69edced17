@@ -1,0 +1,6 @@
+
+~python:S101!"gRename class "captchaSolver" to match the regular expression ^_?([A-Z_][a-zA-Z0-9]*|[a-z_][a-z0-9_]*)$.(½Ϋ»
+wpython:S117B"[Rename this local variable "captchaMap" to match the regular expression ^[_a-z][a-z0-9_]*$.(ίτόÿÿÿÿ
+ppython:S117;"YRename this parameter "captchaParams" to match the regular expression ^[_a-z][a-z0-9_]*$.(υοστ
+npython:S117;"WRename this parameter "captchaType" to match the regular expression ^[_a-z][a-z0-9_]*$.(υοστ
+jpython:S117;"SRename this parameter "siteKey" to match the regular expression ^[_a-z][a-z0-9_]*$.(υοστ

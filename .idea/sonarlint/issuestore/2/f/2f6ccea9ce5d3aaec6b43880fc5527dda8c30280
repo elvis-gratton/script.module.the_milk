@@ -1,0 +1,23 @@
+
+hpython:S116"QRename this field "hasMovies" to match the regular expression ^[_a-z][_a-z0-9]*$.(¨¯úπ
+jpython:S116"SRename this field "hasEpisodes" to match the regular expression ^[_a-z][_a-z0-9]*$.(‰Â•¥
+kpython:S116"TRename this field "getToken_url" to match the regular expression ^[_a-z][_a-z0-9]*$.(∑ó±
+Hpython:S1172)"0Remove the unused function parameter "hostDict".(ﬁüèΩ
+Qpython:S3516)"9Refactor this method to not always return the same value.(ﬁüèΩ
+kpython:S117)"TRename this parameter "hostDict" to match the regular expression ^[_a-z][a-z0-9_]*$.(ﬁüèΩ
+lpython:S3776)"TRefactor this function to reduce its Cognitive Complexity from 28 to the 15 allowed.(ﬁüèΩ
+Tpython:S5754L"<Specify an exception class to catch or reraise the exception(à …∑
+Tpython:S5754s"<Specify an exception class to catch or reraise the exception(à …∑
+Hpython:S5806S"+Rename this variable; it shadows a builtin.(ØñÖ”˙ˇˇˇˇ
+Tpython:S5754c"<Specify an exception class to catch or reraise the exception(à …∑
+Tpython:S5754j"<Specify an exception class to catch or reraise the exception(à …∑
+Mpython:S1172w"5Remove the unused function parameter "total_seasons".(å∆ø©
+Hpython:S1172w"0Remove the unused function parameter "hostDict".(å∆ø©
+Qpython:S3516w"9Refactor this method to not always return the same value.(å∆ø©
+kpython:S117w"TRename this parameter "hostDict" to match the regular expression ^[_a-z][a-z0-9_]*$.(å∆ø©
+lpython:S3776w"TRefactor this function to reduce its Cognitive Complexity from 27 to the 15 allowed.(å∆ø©
+Upython:S5754í"<Specify an exception class to catch or reraise the exception(à …∑
+Upython:S5754ª"<Specify an exception class to catch or reraise the exception(à …∑
+Ipython:S5806ô"+Rename this variable; it shadows a builtin.(ØñÖ”˙ˇˇˇˇ
+Upython:S5754©"<Specify an exception class to catch or reraise the exception(à …∑
+Upython:S5754∞"<Specify an exception class to catch or reraise the exception(à …∑

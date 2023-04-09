@@ -1,0 +1,25 @@
+
+qpython:S100E"URename method "is_IUAM_Challenge" to match the regular expression ^[a-z_][a-z0-9_]*$.(¥¯ÇÜúÿÿÿÿ
+upython:S100Z"YRename method "is_New_IUAM_Challenge" to match the regular expression ^[a-z_][a-z0-9_]*$.(´Îç§şÿÿÿÿ
+spython:S100o"\Rename method "is_New_Captcha_Challenge" to match the regular expression ^[a-z_][a-z0-9_]*$.(„¡Ëç
+ppython:S100„"XRename method "is_Captcha_Challenge" to match the regular expression ^[a-z_][a-z0-9_]*$.(šÔ»ó
+opython:S100™"WRename method "is_Firewall_Blocked" to match the regular expression ^[a-z_][a-z0-9_]*$.(Û¥œ¦
+upython:S100­"XRename method "is_Challenge_Request" to match the regular expression ^[a-z_][a-z0-9_]*$.(½´šàşÿÿÿÿ
+|python:S117Ü"_Rename this local variable "challengeParam" to match the regular expression ^[_a-z][a-z0-9_]*$.(¨Ù¸’ûÿÿÿÿ
+spython:S117Í"\Rename this local variable "formPayload" to match the regular expression ^[_a-z][a-z0-9_]*$.(ïç9
+spython:S117ç"[Rename this local variable "hostParsed" to match the regular expression ^[_a-z][a-z0-9_]*$.(ó¢‡¼
+upython:S117İ"]Rename this local variable "inputPayload" to match the regular expression ^[_a-z][a-z0-9_]*$.(ÿòåù
+spython:S100Ë"[Rename method "IUAM_Challenge_Response" to match the regular expression ^[a-z_][a-z0-9_]*$.(˜£Ù…
+}python:S117«"`Rename this local variable "captchaResponse" to match the regular expression ^[_a-z][a-z0-9_]*$.(ĞÈ„£ıÿÿÿÿ
+tpython:S117’"\Rename this local variable "captchaType" to match the regular expression ^[_a-z][a-z0-9_]*$.(®ÙÈ
+ypython:S117¸"\Rename this local variable "dataPayload" to match the regular expression ^[_a-z][a-z0-9_]*$.(†Ã»¯ıÿÿÿÿ
+spython:S117ş"\Rename this local variable "formPayload" to match the regular expression ^[_a-z][a-z0-9_]*$.(ïç9
+spython:S117Â"[Rename this local variable "hostParsed" to match the regular expression ^[_a-z][a-z0-9_]*$.(ó¢‡¼
+vpython:S100ü"^Rename method "captcha_Challenge_Response" to match the regular expression ^[a-z_][a-z0-9_]*$.(àØúˆ
+…python:S117¼"hRename this local variable "challengeSubmitResponse" to match the regular expression ^[_a-z][a-z0-9_]*$.(îÚªµşÿÿÿÿ
+rpython:S117²"ZRename this local variable "urlParsed" to match the regular expression ^[_a-z][a-z0-9_]*$.(×À«û
+npython:S100Í"VRename method "Challenge_Response" to match the regular expression ^[a-z_][a-z0-9_]*$.(„„£ù
+mpython:S3776Í"TRefactor this function to reduce its Cognitive Complexity from 32 to the 15 allowed.(„„£ù
+Ypython:S6353…";Use concise character class syntax '\d' instead of '[0-9]'.(“•äıÿÿÿÿ
+qpython:S117¡"TRename this parameter "newValue" to match the regular expression ^[_a-z][a-z0-9_]*$.(İü‰¬ùÿÿÿÿ
+npython:S1542¡"PRename function "updateAttr" to match the regular expression ^[a-z_][a-z0-9_]*$.(İü‰¬ùÿÿÿÿ

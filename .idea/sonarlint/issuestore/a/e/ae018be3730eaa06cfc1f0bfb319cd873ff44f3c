@@ -1,0 +1,11 @@
+
+•python:S1192"xDefine a constant instead of duplicating this literal 'SELECT keyword FROM undesirables WHERE user_defined = ?' 3 times.(á­ü³øÿÿÿÿ
+Tpython:S5754="<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+upython:S1542M"XRename function "undesirablesSelect" to match the regular expression ^[a-z_][a-z0-9_]*$.(­Ü±ýýÿÿÿÿ
+Ipython:S1481Y",Remove the unused local variable "disabled".(ÐÐ÷ùÿÿÿÿ
+Tpython:S5754T"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Jpython:S1940Y"-Use the opposite operator ("not in") instead.(ÐÐ÷ùÿÿÿÿ
+spython:S1542^"\Rename function "undesirablesUserRemove" to match the regular expression ^[a-z_][a-z0-9_]*$.(ºýÖM
+|python:S1542i"_Rename function "undesirablesUserRemoveAll" to match the regular expression ^[a-z_][a-z0-9_]*$.(¼í»¶þÿÿÿÿ
+opython:S1542t"WRename function "undesirablesInput" to match the regular expression ^[a-z_][a-z0-9_]*$.(øáÎÌ
+Kpython:S1940‡"-Use the opposite operator ("not in") instead.(ä¸èûÿÿÿÿ
