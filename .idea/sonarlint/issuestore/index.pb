@@ -199,3 +199,5 @@ c
 3lib/the_milk/sources_the_milk/torrents/piratebay.py,4\f\4f83a7e48e6fb54de9a5e988bda6a13df9c94942
 c
 3lib/the_milk/sources_the_milk/torrents/torrentio.py,a\0\a09ea6127a4c848038fd1105e7a828e80bf1b5ce
+9
+	addon.xml,d\2\d210961781676e6d29c3970a7591a02b829cec3a
