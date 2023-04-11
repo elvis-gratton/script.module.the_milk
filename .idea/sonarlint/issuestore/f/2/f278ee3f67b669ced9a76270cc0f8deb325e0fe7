@@ -1,8 +1,4 @@
 
-qpython:S116"SRename this field "hasEpisodes" to match the regular expression ^[_a-z][_a-z0-9]*$.(äå¥´8í²ˆ·ö0
-opython:S116"QRename this field "hasMovies" to match the regular expression ^[_a-z][_a-z0-9]*$.(¬øœ¹8í²ˆ·ö0
-rpython:S117""TRename this parameter "hostDict" to match the regular expression ^[_a-z][a-z0-9_]*$.(ŞŸ½8í²ˆ·ö0
 spython:S3776O"TRefactor this function to reduce its Cognitive Complexity from 53 to the 15 allowed.(§³˜Ö8í²ˆ·ö0
-Ppython:S1172Ş"0Remove the unused function parameter "hostDict".(ŒÆ¿©8ï²ˆ·ö0
-spython:S117Ş"TRename this parameter "hostDict" to match the regular expression ^[_a-z][a-z0-9_]*$.(ŒÆ¿©8ï²ˆ·ö0
+Vpython:S1172Ş"1Remove the unused function parameter "host_dict".(”¢¨«úÿÿÿÿ8›»ıíö0
 tpython:S3776…"TRefactor this function to reduce its Cognitive Complexity from 71 to the 15 allowed.(î¹Ïƒ8ï²ˆ·ö0
