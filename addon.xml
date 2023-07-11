@@ -1,7 +1,8 @@
-<addon id="script.module.the_milk" name="The Milk Module" version="0.0.1" provider-name="Elvis-Gratton">
+<addon id="script.module.the_milk" name="The Milk Module" version="0.0.27" provider-name="Elvis-Gratton">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.requests"/>
+        <import addon="script.module.web-pdb" version="1.5.6"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="lib/default.py">
         <provides>executable</provides>

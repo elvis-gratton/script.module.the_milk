@@ -1,23 +1,0 @@
-
-jpython:S116"SRename this field "hasEpisodes" to match the regular expression ^[_a-z][_a-z0-9]*$.(‰Â•¥
-hpython:S116"QRename this field "hasMovies" to match the regular expression ^[_a-z][_a-z0-9]*$.(¨¯úπ
-kpython:S117#"TRename this parameter "hostDict" to match the regular expression ^[_a-z][a-z0-9_]*$.(ﬁüèΩ
-Tpython:S5754N"<Specify an exception class to catch or reraise the exception(à …∑
-Kpython:S1135<"4Complete the task associated to this "TODO" comment.(ÏƒÃ$
-lpython:S3776R"TRefactor this function to reduce its Cognitive Complexity from 55 to the 15 allowed.(ß≥ò÷
-Tpython:S5754X"<Specify an exception class to catch or reraise the exception(à …∑
-Tpython:S5754g"<Specify an exception class to catch or reraise the exception(à …∑
-Mpython:S1135à"4Complete the task associated to this "TODO" comment.(£ÖŒı
-Upython:S5754û"<Specify an exception class to catch or reraise the exception(à …∑
-Upython:S5754π"<Specify an exception class to catch or reraise the exception(à …∑
-Upython:S5754¿"<Specify an exception class to catch or reraise the exception(à …∑
-Upython:S5754’"<Specify an exception class to catch or reraise the exception(à …∑
-Ipython:S1172Í"0Remove the unused function parameter "hostDict".(å∆ø©
-lpython:S117Í"TRename this parameter "hostDict" to match the regular expression ^[_a-z][a-z0-9_]*$.(å∆ø©
-mpython:S3776ñ"TRefactor this function to reduce its Cognitive Complexity from 69 to the 15 allowed.(ÓπœÉ
-Upython:S5754°"<Specify an exception class to catch or reraise the exception(à …∑
-Mpython:S1135ª"4Complete the task associated to this "TODO" comment.(£ÖŒı
-Upython:S5754›"<Specify an exception class to catch or reraise the exception(à …∑
-Upython:S5754¯"<Specify an exception class to catch or reraise the exception(à …∑
-Upython:S5754ˇ"<Specify an exception class to catch or reraise the exception(à …∑
-Upython:S5754ï"<Specify an exception class to catch or reraise the exception(à …∑

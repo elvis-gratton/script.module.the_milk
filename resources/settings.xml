@@ -619,7 +619,7 @@
                 </setting>
             </group>
             <group id="3">
-                                <setting id="provider.torrent911" type="boolean" label="32560" help="">
+                <setting id="provider.torrent911" type="boolean" label="32560" help="">
                     <level>0</level>
                     <default>true</default>
                     <control type="toggle"/>
@@ -640,6 +640,11 @@
                     <control type="toggle"/>
                 </setting>
                 <setting id="provider.gktorrents" type="boolean" label="32564" help="">
+                    <level>0</level>
+                    <default>true</default>
+                    <control type="toggle"/>
+                </setting>
+                <setting id="provider.yggtorrent" type="boolean" label="32565" help="">
                     <level>0</level>
                     <default>true</default>
                     <control type="toggle"/>

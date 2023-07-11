@@ -61,10 +61,16 @@ def geturl(title):
 def normalize(title):
     try:
         import unicodedata
-        if not title or len(title) == 0: return ''
-        txt = u'%s' % title.lower()
+        if not title or len(title) == 0:
+            return ''
+        txt = title.replace('\u00A0', ' ')  # remove non-break space C2A0
+        txt = u'%s' % txt.lower()
         txt = ''.join(c for c in unicodedata.normalize('NFKD', txt) if unicodedata.category(c) != 'Mn')
         return str(txt)
     except Exception as e:
         log_utils.error('cleantitle.normalize Exception %s' % str(e))
         return ''
+
+
+def remove_non_break_space(title):
+    return title.replace('\u00A0', ' ')

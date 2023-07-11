@@ -1,8 +1,6 @@
 
 f
 6lib/the_milk/sources_the_milk/torrents/extratorrent.py,b\6\b64680b638411e739b0f68ab852689b5c71048fe
-_
-/lib/the_milk/sources_the_milk/torrents/1337x.py,3\e\3e07380683fcc98b0800c639df47341cf6877c4f
 ]
 -lib/the_milk/sources_the_milk/torrents/ext.py,4\d\4d33f5582622bd1bcdfee0eaf0ec274832ba5255
 i
@@ -15,28 +13,18 @@ d
 4lib/the_milk/sources_the_milk/torrents/torrentapi.py,2\f\2f6ccea9ce5d3aaec6b43880fc5527dda8c30280
 _
 /lib/the_milk/sources_the_milk/torrents/ytsmx.py,5\a\5a59e5bbd39964060f99b88075822f5d82724262
-f
-6lib/the_milk/sources_the_milk/torrents/limetorrents.py,c\6\c60567ada9338f88d693f5b6804a714e283e7bb1
 a
 1lib/the_milk/sources_the_milk/torrents/torlock.py,4\a\4ae487a64de32c47497c3cde596a2adc23137bb5
 \
 ,resources/skins/Default/1080i/textviewer.xml,8\3\83de646f7013ef0b53b79cdd566c3beaabc203c5
-e
-5resources/language/resource.language.en_gb/strings.po,8\2\822c1cfd2437e89df8e354f10bd5c60b9cdef22e
-F
-resources/settings.xml,7\0\70d26a3354b59d3a81283883ab42145f7db886da
 H
 lib/the_milk/__init__.py,4\5\45bdc6a61598a257d4cec9b057a03dd93201ba01
->
-lib/service.py,9\2\923b89dba63435a5342212d87fb7c45a093df05a
 @
 lib/pyparsing.py,a\2\a2359f44292bb1b247b7d121e7c08390695aa49a
 ;
 lib/dump.py,e\1\e152a2afc11f505945ea8cc62a4ebc899ac44131
 >
 lib/default.py,0\f\0fca75e724171124751fe2788e02613ea9357fca
-=
-changelog.txt,c\e\ce0e5c4949726dad6dc17cd8a745baa4fd61d32d
 M
 lib/the_milk/help/updates.txt,3\0\30ec8bf10881bf33775e24c61f811e8facd6c9c7
 V
@@ -55,28 +43,18 @@ X
 (lib/the_milk/help/undesirablesFilter.txt,d\b\dbc65cfc3a215dc82826fc50fda6c5ef3c4e035f
 R
 "lib/the_milk/help/packScrapers.txt,3\a\3a35b5c8c46c557ed5c85069eee00cc6e0184255
-Q
-!lib/the_milk/modules/log_utils.py,5\3\532ed1389675937a0fbfdf7b095d989bcfe978d4
 L
 lib/the_milk/modules/plex.py,8\7\875faf18f33cfe5445eef3a52a9d8b93bfa70d80
 M
 lib/the_milk/modules/cache.py,7\f\7f02642d598a957a6ac856f2bc86983b74fa8e54
-O
-lib/the_milk/modules/control.py,a\e\aec0e4a9b6f07bb415be4ca371f33f800bf526af
 Q
 !lib/the_milk/modules/changelog.py,9\3\939b4ce2b0fc20f2a8cc6d27b13d0b528778aeec
-T
-$lib/the_milk/modules/test_modules.py,0\e\0eb8f12b712c4fa531e6b77165c98bc72cefeb2a
 O
 lib/the_milk/modules/workers.py,7\4\745c7aae4f7abc4913d0c68f7ef5db78452c5acb
-T
-$lib/the_milk/modules/source_utils.py,8\d\8dc7d3afedac8bea0ee82db9e42571938e513a7c
 P
  lib/the_milk/modules/__init__.py,3\9\39513498f0885d3225170dee18bcd0c391301955
 N
 lib/the_milk/modules/client.py,f\a\faa232b886e269d908e3d79165267b8a90dece3d
-R
-"lib/the_milk/modules/cleantitle.py,f\1\f1c1fda4f24da07e4ca4d4c0b03d7684eb6686b4
 R
 "lib/the_milk/modules/dom_parser.py,7\f\7f1c1e6410a22eb0225373dae01551452a6bf16f
 T
@@ -171,16 +149,12 @@ h
 .lib/the_milk/sources_the_milk/torrents/nyaa.py,4\5\4548cc243a63911bdae08cfc93917800a74f071a
 ^
 .lib/the_milk/sources_the_milk/torrents/eztv.py,1\4\143fb59fa7783f58c7105cccdf250b7c82042acf
-_
-/lib/the_milk/sources_the_milk/torrents/bitcq.py,6\7\67d17629827bee1ddc9859cdbe2f6a90d5839ee0
 c
 3lib/the_milk/sources_the_milk/torrents/bitsearch.py,1\4\148c4030116e9eb9cb3e94e02bd6fc91a92a8ecc
 b
 2lib/the_milk/sources_the_milk/torrents/magnetdl.py,4\f\4fbad5cd37a3769dee1047545a2aa0877ec4c636
 ^
 .lib/the_milk/sources_the_milk/torrents/ibit.py,e\3\e3693926b2c34a0b2a73fff552fe442ae14b3b25
-d
-4lib/the_milk/sources_the_milk/torrents/torrent911.py,0\a\0ab20df00272dc8fc13f9d5a6a03092d9e8864e9
 i
 9lib/the_milk/sources_the_milk/torrents/torrentdownload.py,d\9\d96f5170ecb673e561cdeef76b4d19f970fe00c1
 e
@@ -191,11 +165,9 @@ c
 3lib/the_milk/sources_the_milk/torrents/piratebay.py,4\f\4f83a7e48e6fb54de9a5e988bda6a13df9c94942
 c
 3lib/the_milk/sources_the_milk/torrents/torrentio.py,a\0\a09ea6127a4c848038fd1105e7a828e80bf1b5ce
-9
-	addon.xml,d\2\d210961781676e6d29c3970a7591a02b829cec3a
-d
-4lib/the_milk/sources_the_milk/torrents/zetorrents.py,e\c\ec6963707a962ab09b6d6a33e66b4fbc9c2e4872
-d
-4lib/the_milk/sources_the_milk/torrents/gktorrents.py,f\2\f278ee3f67b669ced9a76270cc0f8deb325e0fe7
-d
-4lib/the_milk/sources_the_milk/torrents/oxtorrents.py,d\7\d795f4766fc951291e6bbc56a1a75b8add7c8275
+f
+6lib/the_milk/sources_the_milk/torrents/limetorrents.py,c\6\c60567ada9338f88d693f5b6804a714e283e7bb1
+>
+lib/service.py,9\2\923b89dba63435a5342212d87fb7c45a093df05a
+_
+/lib/the_milk/sources_the_milk/torrents/1337x.py,3\e\3e07380683fcc98b0800c639df47341cf6877c4f

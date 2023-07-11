@@ -39,25 +39,30 @@ class source:
             return self.sources
 
         self.sources_append = self.sources.append
+
         try:
             self.aliases = data['aliases']
-            self.year = data['year']
-            self.years = []
             if 'tvshowtitle' in data:
                 l_title = data['tvshowtitle'].lower().replace('&', 'and').replace('/', '-').replace('$', 's')
                 self.title = normalize(l_title)
                 self.episode_title = data['title'].lower()
                 self.is_movie = False
-                self.hdlr = 'S%02dE%02d' % (int(data['season']), int(data['episode']))
                 tmp_url = self.search_series_link
+                self.year = ''
+                self.hdlr = 'S%02dE%02d' % (int(data['season']), int(data['episode']))
+                self.years = None
             else:
-                l_title = data['title'].lower().replace('&', 'and').replace('/', '-').replace('$', 's').replace(':', '')
+                l_title = data['title'].lower().replace('&', 'and').replace('/', '-').replace('$', 's')
                 self.title = normalize(l_title)
                 self.episode_title = None
                 self.is_movie = True
-                self.hdlr = self.year
                 tmp_url = self.search_films_link
-                self.years = [str(int(self.year) - 1), str(self.year), str(int(self.year) + 1)]
+                self.year = data['year']
+                self.hdlr = self.year
+                try:
+                    self.years = [str(int(self.year)), str(int(self.year)-1), str(int(self.year) + 1)]
+                except:
+                    self.years = None
 
             # query = '/%s' % re.sub(r'[^A-Za-z0-9\s\.-]+', '', self.title)
             query = l_title + ' ' + self.hdlr
@@ -117,7 +122,7 @@ class source:
             url = url[0]
 
             year_str = None
-            t = re.split('french|vostfr|truefrench|multi|vff|vfq', name, 1)
+            t = re.split('french|truefrench|multi |vff|vfq', name, 1)
             if not t or len(t) < 2:
                 continue
 
@@ -276,8 +281,6 @@ class source:
             return self.sources
 
     def get_sources_packs(self, season_url):
-        if not season_url:
-            return
         link = re.sub(r'[\n\t]', '', season_url)
         if not link:
             return
@@ -313,7 +316,7 @@ class source:
             url = url[0]
 
             year_name = None
-            t = re.split('french|vostfr|truefrench|multi|vff|vfq', name, 1)
+            t = re.split('french|truefrench|multi |vff|vfq', name, 1)
             if not t or len(t) < 2:
                 continue
 
@@ -447,12 +450,13 @@ class source:
 
     def main(self):
         from the_milk.modules.test_modules import Tests
-        self.sources(Tests.data_movie_1, '')
-        self.sources(Tests.data_serie_1, '')
-        self.sources(Tests.data_serie_2, '')
-
-        self.sources_packs(Tests.data_serie_packs_1, '')
-        self.sources_packs(Tests.data_serie_packs_2, '')
+        tests = Tests()
+        #self.sources(tests.data_movie_1(), '')
+        #self.sources(tests.data_serie_1(), '')
+        #self.sources(tests.data_serie_2(), '')
+        self.sources(tests.data_movie_4(), '')
+        #self.sources_packs(tests.data_serie_packs_1(), '')
+        #self.sources_packs(tests.data_serie_packs_2(), '')
 
 
 if __name__ == "__main__":

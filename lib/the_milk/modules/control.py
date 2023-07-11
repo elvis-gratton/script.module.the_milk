@@ -58,10 +58,13 @@ def setting(id, fallback=None):
         settings_dict = jsloads(homeWindow.getProperty('the_milk_settings'))
     except:
         settings_dict = make_settings_dict()
-    if settings_dict is None: settings_dict = settings_fallback(id)
+    if settings_dict is None:
+        settings_dict = settings_fallback(id)
     value = settings_dict.get(id, '')
-    if fallback is None: return value
-    if value == '': return fallback
+    if fallback is None:
+        return value
+    if value == '':
+        return fallback
     return value
 
 
@@ -88,7 +91,8 @@ def make_settings_dict():  # service runs upon a setting change
                 setting_value = item.firstChild.data  # minidom instead of element tree
             except:
                 setting_value = None
-            if setting_value is None: setting_value = ''
+            if setting_value is None:
+                setting_value = ''
             dict_item = {setting_id: setting_value}
             settings_dict.update(dict_item)
         homeWindow.setProperty('the_milk_settings', jsdumps(settings_dict))

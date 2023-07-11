@@ -19,7 +19,7 @@ class source:
     def __init__(self):
         self.language = ['fr']
 
-        self.base_link = 'https://torrent911.ws'
+        self.base_link = 'https://torrent911.me'
         self.base_link2 = 'https://t911.org'
         self.search_link = '/recherche'
         self.films_link = '/films'
@@ -41,34 +41,45 @@ class source:
         self.sources_append = self.sources.append
         try:
             self.aliases = data['aliases']
-            self.year = data['year']
-            self.years = []
             if 'tvshowtitle' in data:
                 l_title = data['tvshowtitle'].lower().replace('&', 'and').replace('/', '-').replace('$', 's')
                 self.title = normalize(l_title)
                 self.episode_title = data['title'].lower()
                 self.is_movie = False
+                self.year = ''
                 self.hdlr = 'S%02dE%02d' % (int(data['season']), int(data['episode']))
+                self.years = None
             else:
-                l_title = data['title'].lower().replace('&', 'and').replace('/', '-').replace('$', 's').replace(':', '')
+                l_title = data['title'].lower().replace('&', 'and').replace('/', '-').replace('$', 's')
                 self.title = normalize(l_title)
                 self.episode_title = None
                 self.is_movie = True
+                self.year = data['year']
                 self.hdlr = self.year
-                self.years = [str(int(self.year) - 1), str(self.year), str(int(self.year) + 1)]
-
-            query = '%s %s' % (l_title, self.hdlr)
-            link = '%s%s/%s' % (self.base_link, self.search_link, quote_plus(query))
+                try:
+                    self.years = [str(int(self.year)), str(int(self.year)-1), str(int(self.year) + 1)]
+                except:
+                    self.years = None
 
             self._debug_it('T=%s Y=%s H=%s A=%s' % (self.title, self.year, self.hdlr, self.aliases))
-            self._debug_it('link=%s' % link)
 
             self.undesirables = source_utils.get_undesirables()
             self.check_foreign_audio = source_utils.check_foreign_audio()
 
+            if self.is_movie:
+                queries = [
+                    '%s%s/%s' % (self.base_link, self.search_link, quote_plus('%s %s' % (l_title, self.years[0]))),
+                    '%s%s/%s' % (self.base_link, self.search_link, quote_plus('%s %s' % (l_title, self.years[1]))),
+                    '%s%s/%s' % (self.base_link, self.search_link, quote_plus('%s %s' % (l_title, self.years[2])))
+                ]
+            else:
+                queries = [
+                    '%s%s/%s' % (self.base_link, self.search_link, quote_plus(l_title))
+                ]
             threads = []
             append = threads.append
-            append(workers.Thread(self.get_sources, link))
+            for link in queries:
+                append(workers.Thread(self.get_sources, link))
 
             [i.start() for i in threads]
             [i.join() for i in threads]
@@ -78,35 +89,19 @@ class source:
             return self.sources
 
     def get_sources(self, link):
-        link = re.sub(r'[\n\t]', '', link)
-        if not link:
-            return
+        self._debug_it('get_sources: link= %s' % link)
+
         try:
             results = client.request(link, timeout=5)
-        except:
-            log_utils.error('https request search item')
-            return
-        if not results:
-            return
-        self._debug_it('Request url done')
+        except Exception as e:
+            log_utils.error('get_sources: https request search item %s' % str(e))
 
-        # 0 torrents return
-        # 10 torrents return
-        # title="Accueil">Accueil</a> › Recherche › Le chat potte <div class="right">0 Torrents</div></div>
-        # title="Accueil">Accueil</a> › Recherche › Le chat potté <div class="right">10 Torrents</div></div>
-        torrent_available = re.findall('<div class="right">(.*?) Torrents</div></div>', results)
-        if torrent_available:
-            try:
-                torrent_available = int(torrent_available[0])
-            except:
-                torrent_available = 0
-
-        self._debug_it('torrent_available=%s' % torrent_available)
-
-        if torrent_available == 0:
+        if not results or 'Pas de torrents disponibles correspondant à votre recherche' in results:
             return
-        if not results or '<tbody' not in results:
+
+        if '<tbody' not in results:
             return
+
 
         table = client.parseDOM(results, 'tbody')
         if not table:
@@ -131,7 +126,7 @@ class source:
             url = url[0]
 
             year_str = None
-            t = re.split('french|truefrench|multi|vff|vfq', name, 1)
+            t = re.split('french|truefrench|multi |vff|vfq', name, 1)
             if not t or len(t) < 2:
                 continue
 
@@ -141,13 +136,13 @@ class source:
             else:
                 file_title = str(t[0])
 
-            self._debug_it('T=%s N=%s H=%s' % (self.title, file_title, self.hdlr))
+            self._debug_it('T=%s FT=%s H=%s' % (self.title, file_title, self.hdlr))
 
             if not source_utils.check_title(self.title, self.aliases, file_title, self.hdlr, self.year, self.years):
                 self._debug_it('check_title FAILED!  T=%s N=%s H=%s Y=%s YS=%s' % (
                 self.title, file_title, self.hdlr, self.year, self.years))
                 continue
-            self._debug_it('check_title OK!  T=%s N=%s Y=%s' % (self.title, file_title, self.year))
+            self._debug_it('check_title OK T=%s FT=%s Y=%s' % (self.title, file_title, self.year))
 
             link = '%s%s' % (self.base_link, url)
             try:
@@ -190,7 +185,7 @@ class source:
                 dsize = 0
                 info = ' | '.join(info)
 
-            but_magnet = re.findall('href=\'(magnet.*?)\'', result_html)
+            but_magnet = re.findall('href=\"(magnet.*?)\"', result_html)
             if not but_magnet:
                 continue
             but_magnet = but_magnet[0]
@@ -273,10 +268,6 @@ class source:
             return self.sources
 
     def get_sources_packs(self, season_url):
-        if not season_url:
-            return
-        self._debug_it('season_url=%s' % season_url)
-
         link = re.sub(r'[\n\t]', '', season_url)
         if not link:
             return
@@ -310,7 +301,7 @@ class source:
 
             year_name = None
 
-            t = re.split('french|truefrench|multi|vff|vfq', name, 1)
+            t = re.split('french|truefrench|multi |vff|vfq', name, 1)
             if not t or len(t) < 2:
                 continue
 
@@ -349,6 +340,7 @@ class source:
 
             if not result_html or 'magnet:?xt=urn:btih:' not in result_html:
                 continue
+
             tbody = client.parseDOM(result_html, 'tbody')
             if not tbody or len(tbody) < 2:
                 continue
@@ -381,7 +373,7 @@ class source:
                 dsize = 0
                 info = ' | '.join(info)
 
-            but_magnet = re.findall('href=\'(magnet.*?)\'', result_html)
+            but_magnet = re.findall('href=\"(magnet.*?)\"', result_html)
             if not but_magnet:
                 continue
             but_magnet = but_magnet[0]
@@ -430,12 +422,16 @@ class source:
 
     def main(self):
         from the_milk.modules.test_modules import Tests
-        self.sources(Tests.data_movie_1, '')
-        self.sources(Tests.data_serie_1, '')
-        self.sources(Tests.data_serie_2, '')
+        tests = Tests()
+        #self.sources(tests.data_movie_1(), '')
+        # self.sources(tests.data_movie_2(), '')
+        # self.sources(tests.data_movie_3(), '')
+        self.sources(tests.data_movie_4(), '')
+        #self.sources(tests.data_serie_1(), '')
+        #self.sources(tests.data_serie_2(), '')
 
-        self.sources_packs(Tests.data_serie_packs_1, '')
-        self.sources_packs(Tests.data_serie_packs_2, '')
+        #self.sources_packs(tests.data_serie_packs_1(), '')
+        #self.sources_packs(tests.data_serie_packs_2(), '')
 
 
 if __name__ == "__main__":

@@ -68,7 +68,7 @@ def log(msg, caller=None, level=LOGINFO):
         import traceback
         traceback.print_exc()
         import xbmc
-        xbmc.log('[ script.module.the_milk ] log_utils.log() Logging Failure: %s' % (e), LOGERROR)
+        xbmc.log('[ script.module.the_milk ] log_utils.log() Logging Failure: %s' % str(e), LOGERROR)
 
 
 def error(message=None, exception=True):
@@ -96,7 +96,7 @@ def error(message=None, exception=True):
         log(msg=message, caller=caller, level=LOGERROR)
     except Exception as e:
         import xbmc
-        xbmc.log('[ script.module.the_milk ] log_utils.error() Logging Failure: %s' % (e), LOGERROR)
+        xbmc.log('[ script.module.the_milk ] log_utils.error() Logging Failure: %s' % str(e), LOGERROR)
 
 
 def clear_logFile():
@@ -114,7 +114,7 @@ def clear_logFile():
         cleared = True
     except Exception as e:
         import xbmc
-        xbmc.log('[ script.module.the_milk ] log_utils.clear_logFile() Failure: %s' % (e), LOGERROR)
+        xbmc.log('[ script.module.the_milk ] log_utils.clear_logFile() Failure: %s' % str(e), LOGERROR)
         cleared = False
     return cleared
 
@@ -134,8 +134,8 @@ def view_LogFile(name):
         windows = TextViewerXML('textviewer.xml', addonPath(), heading=heading, text=text)
         windows.run()
         del windows
-    except:
-        error()
+    except Exception as e:
+        error('view_LogFile %s' % str(e))
 
 
 def upload_LogFile():
@@ -172,8 +172,8 @@ def upload_LogFile():
         else:
             notification(message='the_milk Log upload failed')
             log('the_milk Log upload failed: %s' % response.text, level=LOGERROR)
-    except:
-        error('the_milk log upload failed')
+    except Exception as e:
+        error('upload_LogFile: the_milk log upload failed %s' % str(e))
         notification(message='pastebin post failed: See log for more info')
 
 
@@ -182,6 +182,6 @@ def normalize(msg):
         import unicodedata
         msg = ''.join(c for c in unicodedata.normalize('NFKD', msg) if unicodedata.category(c) != 'Mn')
         return str(msg)
-    except:
-        error()
+    except Exception as e:
+        error('normalize: %s' % str(e))
         return msg

@@ -37,25 +37,30 @@ class source:
             return self.sources
 
         self.sources_append = self.sources.append
+
         try:
             self.aliases = data['aliases']
-            self.year = data['year']
-            self.years = []
             if 'tvshowtitle' in data:
                 l_title = data['tvshowtitle'].lower().replace('&', 'and').replace('/', '-').replace('$', 's')
                 self.title = normalize(l_title)
                 self.episode_title = data['title'].lower()
                 self.is_movie = False
-                self.hdlr = 'S%02dE%02d' % (int(data['season']), int(data['episode']))
                 tmp_url = self.search_series_link
+                self.year = ''
+                self.hdlr = 'S%02dE%02d' % (int(data['season']), int(data['episode']))
+                self.years = None
             else:
-                l_title = data['title'].lower().replace('&', 'and').replace('/', '-').replace('$', 's').replace(':', '')
+                l_title = data['title'].lower().replace('&', 'and').replace('/', '-').replace('$', 's')
                 self.title = normalize(l_title)
                 self.episode_title = None
                 self.is_movie = True
-                self.hdlr = self.year
                 tmp_url = self.search_films_link
-                self.years = [str(int(self.year) - 1), str(self.year), str(int(self.year) + 1)]
+                self.year = data['year']
+                self.hdlr = self.year
+                try:
+                    self.years = [str(int(self.year)), str(int(self.year)-1), str(int(self.year) + 1)]
+                except:
+                    self.years = None
 
             # query = '/%s' % re.sub(r'[^A-Za-z0-9\s\.-]+', '', self.title)
             tmp = l_title + ' ' + self.hdlr
@@ -115,7 +120,7 @@ class source:
             url = url[0]
 
             year_str = None
-            t = re.split('french|truefrench|multi|vff|vfq', name, 1)
+            t = re.split('french|truefrench|multi |vff|vfq', name, 1)
             if not t or len(t) < 2:
                 continue
 
@@ -231,12 +236,11 @@ class source:
             self.undesirables = source_utils.get_undesirables()
             self.check_foreign_audio = source_utils.check_foreign_audio()
 
-            # query = re.sub(r'[^A-Za-z0-9\s\.-]+', '', self.title)
             if search_series:
-                season_url = '%s%s/%s' % (self.base_link, self.search_link, quote_plus(l_title + ' saison'))
+                season_url = '%s%s/%s' % (self.base_link, self.search_series_link, quote_plus(l_title + ' saison'))
             else:
                 season_url = '%s%s/%s' % (
-                    self.base_link, self.search_link, quote_plus(l_title + ' saison %s' % self.season_x))
+                    self.base_link, self.search_series_link, quote_plus(l_title + ' saison %s' % self.season_x))
 
             threads = []
             append = threads.append
@@ -252,10 +256,6 @@ class source:
 
 
     def get_sources_packs(self, season_url):
-        if not season_url:
-            return
-        self._debug_it('get_sources_packs')
-
         link = re.sub(r'[\n\t]', '', season_url)
         if not link:
             return
@@ -265,6 +265,7 @@ class source:
         except:
             log_utils.error('https request search Pack items')
             return
+
         if not results or '<tbody' not in results:
             return
 
@@ -291,7 +292,7 @@ class source:
             url = url[0]
 
             year_name = None
-            t = re.split('french|truefrench|multi|vff|vfq', name, 1)
+            t = re.split('french|truefrench|multi |vff|vfq', name, 1)
             if not t or len(t) < 2:
                 continue
 
@@ -408,12 +409,13 @@ class source:
 
     def main(self):
         from the_milk.modules.test_modules import Tests
-        self.sources(Tests.data_movie_1, '')
-        self.sources(Tests.data_serie_1, '')
-        self.sources(Tests.data_serie_2, '')
-
-        self.sources_packs(Tests.data_serie_packs_1, '')
-        self.sources_packs(Tests.data_serie_packs_2, '')
+        tests = Tests()
+        #self.sources(tests.data_movie_1(), '')
+        #self.sources(tests.data_serie_1(), '')
+        #self.sources(tests.data_serie_2(), '')
+        self.sources(tests.data_movie_4(), '')
+        #self.sources_packs(tests.data_serie_packs_1(), '')
+        #self.sources_packs(tests.data_serie_packs_2(), '')
 
 
 if __name__ == "__main__":

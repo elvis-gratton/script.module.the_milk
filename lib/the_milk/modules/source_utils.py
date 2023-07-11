@@ -125,10 +125,12 @@ home_getProperty = homeWindow.getProperty
 
 
 def get_undesirables():
-    if not getSetting('filter.undesirables') == 'true' or home_getProperty('fs_filterless_search') == 'true': return []
+    if not getSetting('filter.undesirables') == 'true' or home_getProperty('fs_filterless_search') == 'true':
+        return []
     try:
         undesirables = Undesirables().get_enabled()
-    except:
+    except Exception as e:
+        log_utils.error('get_undesirables: %s' % str(e))
         undesirables = UNDESIRABLES
     return undesirables
 
@@ -169,8 +171,9 @@ def get_release_quality(release_info, release_link=None):
             else:
                 quality = 'SD'
         return quality, info
-    except:
-        log_utils.error('get_release_quality')
+
+    except Exception as e:
+        log_utils.error('get_release_quality %s' % str(e))
         return 'SD', []
 
 
@@ -190,10 +193,10 @@ def aliases_to_array(aliases, filter=None):
         for x in aliases:
             if not filter or x.get('country_code') in filter:
                 ret_list.append(x.get('title'))
-
         return ret_list
-    except:
-        log_utils.error('aliases_to_array')
+
+    except Exception as e:
+        log_utils.error('aliases_to_array %s' % str(e))
         return []
 
 
@@ -252,10 +255,9 @@ def check_title(title, aliases, release_title, hdlr, year, years=None):  # non p
             for regex in range_regex:
                 if bool(re.search(regex, release_title, re.I)):
                     return False
-
         return True
-    except:
-        log_utils.error('check_title')
+    except Exception as e:
+        log_utils.error('check_title %s' % str(e))
         return False
 
 
@@ -279,8 +281,8 @@ def remove_lang(release_info, check_foreign_audio):
 
         return False
 
-    except:
-        log_utils.error('remove_lang')
+    except Exception as e:
+        log_utils.error('remove_lang %s' % str(e))
         return False
 
 
@@ -312,11 +314,15 @@ def filter_season_pack(show_title, aliases, year, season, release_title):
         season_check = '.s%s.' % season
         season_fill_check = '.s%s.' % season_fill
         season_fill_checke = '.s%se' % season_fill  # added 3/2/22 to pick up episode range packs ex "Reacher.s01e01-08"
+
         season_full_check = '.season.%s.' % season
         season_full_check_fr = '.saison.%s.' % season
+
         season_full_check_ns = '.season%s.' % season
+
         season_full_fill_check = '.season.%s.' % season_fill
         season_full_fill_check_fr = '.saison.%s.' % season_fill
+
         season_full_fill_check_ns = '.season%s.' % season_fill
 
         # split_list = (season_full_check_fr, season_full_fill_check_fr, season_check, season_fill_check, season_fill_checke, '.' + season + '.season', 'total.season', 'season', 'the.complete', 'complete', year)
@@ -403,8 +409,8 @@ def filter_season_pack(show_title, aliases, year, season, release_title):
             return True, 0, 0
         return False, 0, 0
 
-    except:
-        log_utils.error('filter_season_pack')
+    except Exception as e:
+        log_utils.error('filter_season_pack: %s' % str(e))
         return True
 
 
@@ -420,8 +426,8 @@ def filter_show_pack(show_title, aliases, imdb, year, season, release_title, tot
                     continue
                 title_list_append(alias)
 
-            except:
-                log_utils.error('filter_show_pack')
+            except Exception as e:
+                log_utils.error('filter_show_pack %s' % str(e))
     try:
         # show_title = show_title.replace('!', '').replace('(', '').replace(')', '').replace('&', 'and')
         show_title = show_title.replace('!', '').replace('(', '').replace(')', '').replace('&', 'and').replace(year,
@@ -431,8 +437,7 @@ def filter_show_pack(show_title, aliases, imdb, year, season, release_title, tot
 
         split_list = (
         'saisons', 'saison', '.all.seasons', 'seasons', 'season', 'the.complete', 'complete', 'all.torrent',
-        'total.series', 'tv.series', 'series', 'edited', 's1', 's01',
-        year)  # s1 or s01 used so show pack only kept that begin with 1
+        'total.series', 'tv.series', 'series', 'edited', 's1', 's01', 'integrale', year)  # s1 or s01 used so show pack only kept that begin with 1
         release_title = release_title_format(release_title)
 
         t = release_title.replace('-', '.')
@@ -676,9 +681,9 @@ def filter_show_pack(show_title, aliases, imdb, year, season, release_title, tot
             return True, last_season
 
         return True, total_seasons
-    except:
+    except Exception as e:
+        log_utils.error('filter_show_pack: %s' % str(e))
 
-        log_utils.error('filter_show_pack')
     # return True, total_seasons
 
 
@@ -719,8 +724,8 @@ def info_from_name(release_title, title, year, hdlr=None, episode_title=None, se
         name_info = name_info.lstrip('.').rstrip('.')
         name_info = '.%s.' % name_info
         return name_info
-    except:
-        log_utils.error('info_from_name')
+    except Exception as e:
+        log_utils.error('info_from_name: %s' % str(e))
         return release_title
 
 
@@ -731,8 +736,8 @@ def release_title_format(release_title):
                                                                                                                   '-').replace(
             '--', '-')
         return fmt
-    except:
-        log_utils.error('release_title_format')
+    except Exception as e:
+        log_utils.error('release_title_format %s' % str(e))
         return release_title
 
 
@@ -752,8 +757,9 @@ def clean_name(release_title):
 
         release_title = release_title.lstrip('.-[](){}:/')
         return release_title
-    except:
-        log_utils.error('clean_name')
+
+    except Exception as e:
+        log_utils.error('clean_name %s' % str(e))
         return release_title
 
 
@@ -761,8 +767,8 @@ def strip_non_ascii_and_unprintable(text):
     try:
         result = ''.join(char for char in text if char in printable)
         return result.encode('ascii', errors='ignore').decode('ascii', errors='ignore')
-    except:
-        log_utils.error('strip_non_ascii_and_unprintable')
+    except Exception as e:
+        log_utils.error('strip_non_ascii_and_unprintable %s' % str(e))
         return text
 
 
@@ -783,8 +789,8 @@ def _size(siz):
         str_size = '%.2f GB' % float_size
 
         return float_size, str_size
-    except:
-        log_utils.error('failed on siz=%s' % siz)
+    except Exception as e:
+        log_utils.error('failed on siz=%s' % (siz, str(e)))
         return 0, ''
 
 
@@ -801,8 +807,9 @@ def convert_size(size_bytes, to='GB'):
         # if to == 'B' or to  == 'KB': return 0, ''
         str_size = "%s %s" % (float_size, to)
         return float_size, str_size
-    except:
-        log_utils.error('convert_size')
+
+    except Exception as e:
+        log_utils.error('convert_size %s' % str(e))
         return 0, ''
 
 
@@ -835,8 +842,8 @@ def is_host_valid(url, domains):
         if hosts and any([h for h in ('akamaized', 'ocloud') if h in host]): host = 'CDN'
 
         return any(hosts), host
-    except:
-        log_utils.error('is_host_valid')
+    except Exception as e:
+        log_utils.error('is_host_valid %s' % str(e))
         return False, ''
 
 
@@ -855,8 +862,8 @@ def __top_domain(url):
         domain = domain.lower()
         return domain
 
-    except:
-        log_utils.error('__top_domain')
+    except Exception as e:
+        log_utils.error('__top_domain %s' % str(e))
 
 
 def copy2clip(txt):

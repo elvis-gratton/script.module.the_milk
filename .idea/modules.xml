@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../plugin.video.the_cow/.idea/plugin.video.the_cow.iml" filepath="$PROJECT_DIR$/../plugin.video.the_cow/.idea/plugin.video.the_cow.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/script.module.the_milk.iml" filepath="$PROJECT_DIR$/.idea/script.module.the_milk.iml" />
     </modules>
   </component>
